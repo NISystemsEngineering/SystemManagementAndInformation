@@ -1,0 +1,52 @@
+cRIO Module Info.vi
+Get cRIO-9030 Modules Info.vi
+Get cRIO-9031 Modules Info.vi
+Get cRIO-9033 Modules Info.vi
+Get cRIO-9034 Modules Info.vi
+Get cRIO-9035 Modules Info.vi
+Get cRIO-9036 Modules Info.vi
+Get cRIO-9038 Modules Info.vi
+Get cRIO-9039 Modules Info.vi
+Get cRIO-9063 Modules Info.vi
+Get cRIO-9064 Modules Info.vi
+Get cRIO-9065 Modules Info.vi
+Get cRIO-9066 Modules Info.vi
+Get cRIO-9067 Modules Info.vi
+Get cRIO-9068 Modules Info.vi
+Get cRIO-9072 Modules Info.vi
+Get cRIO-9073 Modules Info.vi
+Get cRIO-9074 Modules Info.vi
+Get cRIO-9075 Modules Info.vi
+Get cRIO-9076 Modules Info.vi
+Get cRIO-9081 Modules Info.vi
+Get cRIO-9082 Modules Info.vi
+Get cRIO-9101 Modules Info.vi
+Get cRIO-9102 Modules Info.vi
+Get cRIO-9103 Modules Info.vi
+Get cRIO-9104 Modules Info.vi
+Get cRIO-9111 Modules Info.vi
+Get cRIO-9112 Modules Info.vi
+Get cRIO-9113 Modules Info.vi
+Get cRIO-9114 Modules Info.vi
+Get cRIO-9116 Modules Info.vi
+Get cRIO-9118 Modules Info.vi
+Get Ethernet RIO NI 9146 Modules Info.vi
+Get Ethernet RIO NI 9147 Modules Info.vi
+Get Ethernet RIO NI 9148 Modules Info.vi
+Get Ethernet RIO NI 9149 Modules Info.vi
+Get Module Info (FPGA Mode).vi
+Get Module Info (Scan Mode).vi
+Get MXI-Express RIO NI 9154 Modules Info.vi
+Get MXI-Express RIO NI 9155 Modules Info.vi
+Get MXI-Express RIO NI 9157 Modules Info.vi
+Get MXI-Express RIO NI 9159 Modules Info.vi
+Get Remote cRIO Modules Info.vi
+Get sbRIO-9601 Modules Info.vi
+Get sbRIO-9602 Modules Info.vi
+Get sbRIO-9611 Modules Info.vi
+Get sbRIO-9612 Modules Info.vi
+Get sbRIO-9631 Modules Info.vi
+Get sbRIO-9632 Modules Info.vi
+Get sbRIO-9641 Modules Info.vi
+Get sbRIO-9642 Modules Info.vi
+Module Detection.lvclass

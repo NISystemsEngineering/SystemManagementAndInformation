@@ -1,0 +1,9 @@
+ConfigureIPv4address.ctl
+DeviceInformation.ctl
+DeviceNetworkSettings.ctl
+NetworkAdapterMode.ctl
+NetworkAdapterSettings.ctl
+NetworkAdapterType.ctl
+NetworkDetection.ctl
+NetworkDevice.ctl
+NetworkDeviceInformation.ctl
