@@ -24,22 +24,6 @@
 		<Item Name="FTP.lvclass" Type="LVClass" URL="../classes/FTP/FTP.lvclass"/>
 		<Item Name="WebDAV.lvclass" Type="LVClass" URL="../classes/WebDAV/WebDAV.lvclass"/>
 	</Item>
-	<Item Name="Device" Type="Folder">
-		<Item Name="Device.lvclass" Type="LVClass" URL="../classes/Distributed Devices/Device.lvclass"/>
-		<Item Name="Detect Network Devices.vi" Type="VI" URL="../classes/Distributed Devices/Detect Network Devices.vi"/>
-		<Item Name="SysCfg Device.lvclass" Type="LVClass" URL="../classes/SysCfg Device/SysCfg Device.lvclass"/>
-	</Item>
-	<Item Name="Controller" Type="Folder">
-		<Item Name="Controller.lvclass" Type="LVClass" URL="../classes/Controller/Controller.lvclass"/>
-	</Item>
-	<Item Name="Chassis" Type="Folder">
-		<Item Name="Chassis.lvclass" Type="LVClass" URL="../classes/Chassis/Chassis.lvclass"/>
-	</Item>
-	<Item Name="Module" Type="Folder">
-		<Item Name="Module Detection.lvclass" Type="LVClass" URL="../classes/Module Detection/Module Detection.lvclass"/>
-		<Item Name="C Series Module.lvclass" Type="LVClass" URL="../classes/C Series Module/C Series Module.lvclass"/>
-		<Item Name="PXI Module.lvclass" Type="LVClass" URL="../classes/PXI Module/PXI Module.lvclass"/>
-	</Item>
 	<Item Name="RT Management.lvclass" Type="LVClass" URL="../classes/RT Management/RT Management.lvclass"/>
 	<Item Name="Get Network Adapter Settings.vi" Type="VI" URL="../classes/RT Management/Get Network Adapter Settings.vi"/>
 </Library>
