@@ -25,5 +25,4 @@
 		<Item Name="WebDAV.lvclass" Type="LVClass" URL="../classes/WebDAV/WebDAV.lvclass"/>
 	</Item>
 	<Item Name="RT Management.lvclass" Type="LVClass" URL="../classes/RT Management/RT Management.lvclass"/>
-	<Item Name="Get Network Adapter Settings.vi" Type="VI" URL="../classes/RT Management/Get Network Adapter Settings.vi"/>
 </Library>
