@@ -152,13 +152,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Close SysCfg Device.vi" Type="VI" URL="../Close SysCfg Device.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Y!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!B#6..33ZM&gt;GRJ9B64?8.$:G=A2'6W;7.F,GRW9WRB=X-!%6.Z=U.G:S"%:8:J9W5A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!!]1(!!(A!!)1F445EO&lt;(:M;7)65XFT1W:H)%2F&gt;GFD:3ZM&gt;G.M98.T!""4?8.$:G=A2'6W;7.F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$P!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!]1(!!(A!!)1F445EO&lt;(:M;7)65XFT1W:H)%2F&gt;GFD:3ZM&gt;G.M98.T!""4?8.$:G=A2'6W;7.F)'FO!!"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!1!"A-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!!!!"!!=!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107820560</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268967954</Property>
 	</Item>
 	<Item Name="Get SysCfg Device Information.vi" Type="VI" URL="../Get SysCfg Device Information.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*F!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#A!.`````]!"25!A!!!!!!"!!1!!!!"!!!!!!!!#'ZJ=XFT9W:H!!")1(!!&amp;1^O;8.Z=W.G:V.F=X.J&lt;WY!!1!&amp;#'ZJ=XFT9W:H!"5!A!!!!!!"!!1!!!!"!!!!!!!!$F.Z=U.G:S"4:8.T;7^O!!!51$$`````#V:F&lt;G2P=C"/97VF!":!-0````]-5(*P:(6D&gt;#"/97VF!!!21!=!#F"S&lt;W2V9X1A351!!":!-0````].5W6S;7&amp;M)%ZV&lt;7*F=A"M!0%!!!!!!!!!!QF445EO&lt;(:M;7)65XFT1W:H)%2F&gt;GFD:3ZM&gt;G.M98.T'V.Z=U.G:U2F&gt;GFD:5FO:G^S&lt;7&amp;U;7^O,G.U&lt;!!I1&amp;!!"1!'!!=!#!!*!!I32'6W;7.F)%FO:G^S&lt;7&amp;U;7^O!!!]1(!!(A!!)1F445EO&lt;(:M;7)65XFT1W:H)%2F&gt;GFD:3ZM&gt;G.M98.T!"&amp;4?8.$:G=A2'6W;7.F)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!0%"Q!"Y!!#%*5UV*,GRW&lt;'FC&amp;6.Z=U.G:S"%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!15XFT1W:H)%2F&gt;GFD:3"J&lt;A!!91$Q!!Q!!Q!%!!M!$!!%!!1!"!!%!!U!"!!%!!Y#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$Q!!!!!</Property>
