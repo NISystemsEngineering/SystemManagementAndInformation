@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nifamily familyname="CCC" displayname="CVT Client Communication (CCC)">
+</nifamily>
+<nicomment>
+Error code file for the CVT Client Communication (CCC) library.
+</nicomment>
+<nierror code="537250">
+Server already running.
+</nierror>
+<nierror code="537251">
+Server not running.
+</nierror>
+<nierror code="537252">
+Server did not close in the specified amount of time.
+</nierror>
+<nierror code="537253">
+CVT data type does not match expected data type.
+</nierror>
+<nierror code="537254">
+Invalid connection ID.
+</nierror>
+<nierror code="537255">
+Server cannot be run.
+</nierror>
+<nierror code="537256">
+The tag list contains one or more items that are configured for both Read and Write, which can cause race conditions.
+</nierror>
+</nidocument>

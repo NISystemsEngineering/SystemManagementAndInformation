@@ -1,0 +1,172 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Citadel" displayname="Citadel">
+</nifamily>
+</nicomment>
+<nierror code="-1967386623">
+Citadel:  (Hex 0x8ABC1001) Die Dateizuordnung im SQL-Server ist fehlgeschlagen. Möglicherweise wurde der Zugriff verweigert. Vergewissern Sie sich, dass der Ordner zum Speichern der Datenbank vom NETWORK-SERVICE-Benutzer beschreibbar ist. 
+</nierror>
+<nierror code="-1967386622">
+Citadel:  (Hex 0x8ABC1002) Der gesuchte Computer, Pfad oder Ordner ist nicht auffindbar.
+</nierror>
+<nierror code="-1967386621">
+Citadel:  (Hex 0x8ABC1003) Der Vorgang kann nicht abgeschlossen werden, da die Ressource noch von einem anderen Client genutzt wird.
+</nierror>
+<nierror code="-1967386620">
+Citadel:  (Hex 0x8ABC1004) Einige Daten können nicht gelöscht werden, da sie auch von anderen Clients genutzt werden.
+</nierror>
+<nierror code="-1967386619">
+Citadel:  (Hex 0x8ABC1005) Dies ist keine Spiegeldatenbank.
+</nierror>
+<nierror code="-1967386618">
+Citadel:  (Hex 0x8ABC1006) Einige Schritte des Vorgangs wurden nicht erfolgreich abgeschlossen.
+</nierror>
+<nierror code="-1967386617">
+Citadel:  (Hex 0x8ABC1007) Es gibt bereits eine Datenbank mit dem angegebenen Pfad oder Namen.
+</nierror>
+<nierror code="-1967386616">
+Citadel:  (Hex 0x8ABC1008) Der Alarm konnte nicht gelesen werden, da die Verbindung unterbrochen wurde oder die Abfrage fehlschlug.
+</nierror>
+<nierror code="-1967386615">
+Citadel:  (Hex 0x8ABC1009) Konnte Datensatz nicht ausführen. Mindestens eins der erforderlichen Attribute fehlt.
+</nierror>
+<nierror code="-1967386613">
+Citadel:  (Hex 0x8ABC100B) Der Name des Datensatzes konnte in der Knotenbaumstruktur nicht gefunden werden.
+</nierror>
+<nierror code="-1967386612">
+Citadel:  (Hex 0x8ABC100C) Die Ausführungskennung des Datensatzes wurde im aktuellen Datensatz nicht gefunden.
+</nierror>
+<nierror code="-1967386611">
+Citadel:  (Hex 0x8ABC100D) Die Citadel-Datenbank ist nicht darauf konfiguriert, Alarme in einer relationalen Datenbank aufzuzeichnen. Dieser Fehler kann auftreten, wenn der Datenbankordner nicht mit den richtigen Zugriffsrechten konfiguriert ist.
+</nierror>
+<nierror code="-1967386610">
+Citadel:  (Hex 0x8ABC100E) Das Zielverzeichnis für die Umwandlung ist ungültig.
+</nierror>
+<nierror code="-1967386609">
+Citadel:  (Hex 0x8ABC100F) Die Version der Zieldatenbank wird vom Umwandlungsprogramm nicht unterstützt.
+</nierror>
+<nierror code="-1967386608">
+Citadel:  (Hex 0x8ABC1010) Unter diesem Pfad wurde keine Datenbank gefunden.
+</nierror>
+<nierror code="-1967386607">
+Citadel:  (Hex 0x8ABC1011) Die Version der Ausgangsdatenbank wird vom Umwandlungsprogramm nicht unterstützt.
+</nierror>
+<nierror code="-1967386606">
+Citadel:  (Hex 0x8ABC1012) Es gibt schon eine Datenbank mit diesem Namen.
+</nierror>
+<nierror code="-1967386605">
+Citadel:  (Hex 0x8ABC1013) Für die Umwandlung ist nicht genügend Speicherplatz auf dem Datenträger vorhanden.
+</nierror>
+<nierror code="-1967386604">
+Citadel:  (Hex 0x8ABC1014) Unerwarteter Fehler im Umwandlungsprogramm
+</nierror>
+<nierror code="-1967386603">
+Citadel:  (Hex 0x8ABC1015) Kann keine Sicherheitskopien der Quelldateien anlegen.
+</nierror>
+<nierror code="-1967386602">
+Citadel:  (Hex 0x8ABC1016) Unerwarteter Fehler beim Lesen von Daten aus der Ausgangsdatenbank.
+</nierror>
+<nierror code="-1967386601">
+Citadel:  (Hex 0x8ABC1017) Unerwarteter Fehler beim Übertragen von Daten in die Zieldatenbank.
+</nierror>
+<nierror code="-1967386600">
+Citadel:  (Hex 0x8ABC1018) Timeout beim Herstellen einer Verbindung mit dem Citadel-4-Dienst.
+</nierror>
+<nierror code="-1967386599">
+Citadel:  (Hex 0x8ABC1019) Kann die Citadel-5-Interfaces nicht laden.
+</nierror>
+<nierror code="-1967386598">
+Citadel:  (Hex 0x8ABC101A) Umwandlung über ein Netzwerk nicht möglich.
+</nierror>
+<nierror code="-1967386597">
+Citadel:  (Hex 0x8ABC101B) Die Ausgangsdatenbank scheint nicht in Ordnung zu sein.
+</nierror>
+<nierror code="-1967386596">
+Citadel:  (Hex 0x8ABC101C) Die Ausgangsdatenbank wird gerade von einem anderen Client verwendet. Bitte schließen Sie alle aktiven Clients und versuchen Sie es noch einmal.
+</nierror>
+<nierror code="-1967386595">
+Citadel:  (Hex 0x8ABC101D) Fehler bei der Alarmabfrage.
+</nierror>
+<nierror code="-1967386594">
+Citadel:  (Hex 0x8ABC101E) Kann keine Verbindung mit der Alarm- und Ereignisdatenbank herstellen.
+</nierror>
+<nierror code="-1967386593">
+Citadel:  (Hex 0x8ABC101F) Der Vorgang wurde vom Client abgebrochen.
+</nierror>
+<nierror code="-1967386592">
+Citadel:  (Hex 0x8ABC1020) Der Citadel-Dienst hat eine Client-Anfrage nicht erkannt. Möglicherweise muss der Client oder Dienst geupdatet werden.
+</nierror>
+<nierror code="-1967386591">
+Citadel:  (Hex 0x8ABC1021) Das angegebene Objekt (eine Datenbank oder ein Unter-Trace) ist nicht auffindbar.
+</nierror>
+<nierror code="-1967386590">
+Citadel:  (Hex 0x8ABC1022) Die Datenbank wird gerade von einem anderen Client verwendet.
+</nierror>
+<nierror code="-1967386589">
+Citadel:  (Hex 0x8ABC1023) Konnte Datenbank-Datei nicht in den gemeinsamen Speicher übertragen.
+</nierror>
+<nierror code="-1967386588">
+Citadel:  (Hex 0x8ABC1024) Der Datenträger ist voll.
+</nierror>
+<nierror code="-1967386587">
+Citadel:  (Hex 0x8ABC1025) Der Unter-Trace enthält keine Daten.
+</nierror>
+<nierror code="-1967386586">
+Citadel:  (Hex 0x8ABC1026) Das angegebene Verzeichnis enthält eine Citadel-Datenbank, die mit dem ausgeführten Citadel-Dienst nicht kompatibel ist.
+</nierror>
+<nierror code="-1967386585">
+Citadel:  (Hex 0x8ABC1027) Interner Citadel-Fehler.
+</nierror>
+<nierror code="-1967386584">
+Citadel:  (Hex 0x8ABC1028) Falsche Version der Citadel-Datenbank.
+</nierror>
+<nierror code="-1967386583">
+Citadel:  (Hex 0x8ABC1029) Das Zielverzeichnis enthält bereits eine Citadel-5-Datenbank.
+</nierror>
+<nierror code="-1967386582">
+Citadel:  (Hex 0x8ABC102A) Konnte zugehörige relationale Datenbank nicht anmelden.
+</nierror>
+<nierror code="-1967386581">
+Citadel:  (Hex 0x8ABC102B) Konnte zugehörige relationale Datenbank nicht abmelden.
+</nierror>
+<nierror code="-1967386580">
+Citadel:  (Hex 0x8ABC102C) Es existiert bereits ein Objekt mit diesem Namen.
+</nierror>
+<nierror code="-1967386579">
+Citadel:  (Hex 0x8ABC102D) Das Objekt, das unbenannt werden soll, kann nicht verschoben oder umbenannt werden.
+</nierror>
+<nierror code="-1967386578">
+Citadel:  (Hex 0x8ABC102E) Kann kein Objekt mit einem solchen Namen erstellen. 
+</nierror>
+<nierror code="-1967386577">
+Citadel:  (Hex 0x8ABC102F) Beim Umbenennen kommt es innerhalb der Knotenbaumstruktur zu einer Endlosschleife.
+</nierror>
+<nierror code="-1967386576">
+Citadel:  (Hex 0x8ABC1030) Kann nicht auf das Citadel-Bearbeitungsprotokoll zugreifen. Eventuell sind die Dateien ungültig oder schreibgeschützt.
+</nierror>
+<nierror code="-1967386575">
+Citadel:  (Hex 0x8ABC1031) Konnte die angegebene Citadel-Datenbank nicht finden.
+</nierror>
+<nierror code="-1967386574">
+Citadel:  (Hex 0x8ABC1032) Konnte zugehörige relationale Datenbank nicht umbenennen.
+</nierror>
+<nierror code="-1967386573">
+Citadel:  (Hex 0x8ABC1033) Hochgeschwindigkeits-Citadel ist nicht auf diesem Computer installiert.
+</nierror>
+<nierror code="-1967386572">
+Citadel:  (Hex 0x8ABC1034) NIScale.dll nicht auffindbar
+</nierror>
+<nierror code="-1967386571">
+Citadel:  (Hex 0x8ABC1035) Inkompatible Version der Citadel-Editlog-Datei.
+</nierror>
+<nierror code="-1967386570">
+Citadel:  (Hex 0x8ABC1036) Der Zeitstempel der Daten ist nicht aktuell.
+</nierror>
+<nierror code="-1967386569">
+Citadel:  (Hex 0x8ABC1037) Es ist bereits eine Komponente geöffnet, die in diesen Datenbank-Trace schreibt.
+</nierror>
+<nierror code="180097025">
+Citadel:  (Hex 0xABC1001) Möglicher Datenverlust. Das Citadel-Bearbeitungsprotokoll enthält nicht alle protokollierten Daten.
+</nierror>
+</nidocument>

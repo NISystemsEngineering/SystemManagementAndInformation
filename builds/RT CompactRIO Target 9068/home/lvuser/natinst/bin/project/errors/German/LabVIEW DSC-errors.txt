@@ -1,0 +1,544 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW DSC" displayname="LabVIEW DSC">
+</nifamily>
+</nicomment>
+<nierror code="-2147220995">
+LabVIEW DSC:  (Hex 0x800401FD) Der OPC-Client-I/O-Server ist mit keinem OPC-Server verbunden. Prüfen Sie die Einstellungen zum OPC-Client-I/O-Server. Überprüfen Sie auch die Netzwerkeinstellungen, wenn Sie versuchen, mit einem fremden OPC-Server eine Verbindung herzustellen. Vergewissern Sie sich ebenfalls, dass die DCOM-Sicherheitseinstellungen des Servers und des Clients stimmen.
+</nierror>
+<nierror code="-1967390699">
+LabVIEW DSC:  (Hex 0x8ABC0015) Die angegebene Zeit ist ungültig.
+</nierror>
+<nierror code="-1967390698">
+LabVIEW DSC:  (Hex 0x8ABC0016) SetInfo konnte den Trace auf Grund eines Konflikts nicht umbenennen.
+</nierror>
+<nierror code="-1967390697">
+LabVIEW DSC:  (Hex 0x8ABC0017) FindOptimum hat keine Übereinstimmung gefunden.
+</nierror>
+<nierror code="-1967390696">
+LabVIEW DSC:  (Hex 0x8ABC0018) Für diesen Trace existiert bereits ein schreibendes Objekt.
+</nierror>
+<nierror code="-1967390695">
+LabVIEW DSC:  (Hex 0x8ABC0019) Netzwerkbereich nicht angegeben.
+</nierror>
+<nierror code="-1967390694">
+LabVIEW DSC:  (Hex 0x8ABC001A) Cache-Überlauf
+</nierror>
+<nierror code="-1967390693">
+LabVIEW DSC:  (Hex 0x8ABC001B) Es sind keine Datenpunkte mehr in der Liste vorhanden.
+</nierror>
+<nierror code="-1967390692">
+LabVIEW DSC:  (Hex 0x8ABC001C) Die vom Netzwerk erhaltenen Daten sind ungültig.
+</nierror>
+<nierror code="-1967390691">
+LabVIEW DSC:  (Hex 0x8ABC001D) Der Aufruf von LogosTraceStartup ist fehlgeschlagen, bevor auf die Traces zugegriffen werden konnte.
+</nierror>
+<nierror code="-1967390690">
+LabVIEW DSC:  (Hex 0x8ABC001E) Bereits in den Datenbank-Trace integriert.
+</nierror>
+<nierror code="-1967390689">
+LabVIEW DSC:  (Hex 0x8ABC001F) Es wurde versucht, in einen vollen Puffer zu schreiben.
+</nierror>
+<nierror code="-1967390688">
+LabVIEW DSC:  (Hex 0x8ABC0020) Es wurde versucht, in eine Datenbank zu schreiben, auf die der Benutzer keinen Schreibzugriff hat.
+</nierror>
+<nierror code="-1967390607">
+LabVIEW DSC:  (Hex 0x8ABC0071) Es wurde versucht, einen Alarm zu verwenden, der deaktiviert ist
+</nierror>
+<nierror code="-1967390558">
+LabVIEW DSC:  (Hex 0x8ABC00A2) Ungültiger Name für Benutzerkonto
+</nierror>
+<nierror code="-1967390557">
+LabVIEW DSC:  (Hex 0x8ABC00A3) Ungültiges Passwort
+</nierror>
+<nierror code="-1967390556">
+LabVIEW DSC:  (Hex 0x8ABC00A4) Ungültiger Gruppenname
+</nierror>
+<nierror code="-1967390555">
+LabVIEW DSC:  (Hex 0x8ABC00A5) Sicherheits-Domäne nicht gefunden.
+</nierror>
+<nierror code="-1967390554">
+LabVIEW DSC:  (Hex 0x8ABC00A6) Benutzerkonto nicht gefunden.
+</nierror>
+<nierror code="-1967390553">
+LabVIEW DSC:  (Hex 0x8ABC00A7) Benutzergruppe nicht gefunden.
+</nierror>
+<nierror code="-1967390552">
+LabVIEW DSC:  (Hex 0x8ABC00A8) Domäne nicht gefunden.
+</nierror>
+<nierror code="-1967390551">
+LabVIEW DSC:  (Hex 0x8ABC00A9) Nicht genug Speicher auf dem Datenträger.
+</nierror>
+<nierror code="-1967390550">
+LabVIEW DSC:  (Hex 0x8ABC00AA) Fehler beim Lesen der Sicherheitsdaten.
+</nierror>
+<nierror code="-1967390549">
+LabVIEW DSC:  (Hex 0x8ABC00AB) Fehler beim Schreiben der Sicherheitsdaten.
+</nierror>
+<nierror code="-1967390548">
+LabVIEW DSC:  (Hex 0x8ABC00AC) Ungültiger Sicherheitscode
+</nierror>
+<nierror code="-1967390547">
+LabVIEW DSC:  (Hex 0x8ABC00AD) Name des Benutzerkontos bereits vorhanden
+</nierror>
+<nierror code="-1967390546">
+LabVIEW DSC:  (Hex 0x8ABC00AE) Gruppenname bereits vorhanden
+</nierror>
+<nierror code="-1967390545">
+LabVIEW DSC:  (Hex 0x8ABC00AF) Datei mit Sicherheitsinformationen kann nicht gefunden werden.
+</nierror>
+<nierror code="-1967390544">
+LabVIEW DSC:  (Hex 0x8ABC00B0) Vordefiniertes Benutzerkonto kann nicht gelöscht werden.
+</nierror>
+<nierror code="-1967390543">
+LabVIEW DSC:  (Hex 0x8ABC00B1) Vordefinierte Gruppe kann nicht gelöscht werden.
+</nierror>
+<nierror code="-1967390541">
+LabVIEW DSC:  (Hex 0x8ABC00B3) Passwort ist abgelaufen.
+</nierror>
+<nierror code="-1967390540">
+LabVIEW DSC:  (Hex 0x8ABC00B4) Das neue Passwort darf nicht mit dem alten Passwort übereinstimmen.
+</nierror>
+<nierror code="-1967390432">
+LabVIEW DSC:  (Hex 0x8ABC0120) Asynchrone Textbearbeitung wird nicht unterstützt.
+</nierror>
+<nierror code="-1967390368">
+LabVIEW DSC:  (Hex 0x8ABC0160) Datenbank konnte nicht geöffnet werden.
+</nierror>
+<nierror code="-1967390367">
+LabVIEW DSC:  (Hex 0x8ABC0161) Archiv-Datenbank ist gleich der aktuellen Datenbank.
+</nierror>
+<nierror code="-1967390366">
+LabVIEW DSC:  (Hex 0x8ABC0162) Datenbank kann nicht gelöscht werden, solange sie durch eine Anwendung genutzt wird.
+</nierror>
+<nierror code="-1967390365">
+LabVIEW DSC:  (Hex 0x8ABC0163) Fehler bei der Verschiebung von Spuren.
+</nierror>
+<nierror code="-1967390364">
+LabVIEW DSC:  (Hex 0x8ABC0164) Fehler bei der Anforderung der Ablaufstatistik von der Datenbank.
+</nierror>
+<nierror code="-1967390352">
+LabVIEW DSC:  (Hex 0x8ABC0170) Datenbank-Pfad ist ungültig.
+</nierror>
+<nierror code="-1967374336">
+LabVIEW DSC:  (Hex 0x8ABC4000) Sicherheitssystem nicht initialisiert.
+</nierror>
+<nierror code="-1967374335">
+LabVIEW DSC:  (Hex 0x8ABC4001) Maximale Anzahl simultaner Sessions überschritten.
+</nierror>
+<nierror code="-1967374334">
+LabVIEW DSC:  (Hex 0x8ABC4002) Ungültiges Benutzer-Kürzel
+</nierror>
+<nierror code="-1967374333">
+LabVIEW DSC:  (Hex 0x8ABC4003) Ungültiger Benutzertyp
+</nierror>
+<nierror code="-1967362022">
+LabVIEW DSC:  (Hex 0x8ABC701A) Es wurde versucht, aus einem leeren Speicherpuffer zu lesen.
+</nierror>
+<nierror code="-1967353913">
+LabVIEW DSC:  (Hex 0x8ABC8FC7) Der Modbus-Slave-I/O-Server konnte kein Socket-Objekt erstellen. Prüfen Sie die TCP/IP-Konfiguration des Computers auf Fehler.
+</nierror>
+<nierror code="-1967353912">
+LabVIEW DSC:  (Hex 0x8ABC8FC8) Der Modbus-Slave-I/O-Server konnte keine Verbindung mit Port 502 herstellen. Stellen Sie sicher, dass kein anderer Modbus-Slave oder keine andere Anwendung den TCP-Port 502 belegt.
+</nierror>
+<nierror code="-1967353911">
+LabVIEW DSC:  (Hex 0x8ABC8FC9) Der Modbus-I/O-Server konnte keinen Frame senden. Stellen Sie sicher, dass die Konfiguration des für den Modbus-Master spezifizierten seriellen Ports korrekt ist.
+</nierror>
+<nierror code="-1967353910">
+LabVIEW DSC:  (Hex 0x8ABC8FCA) Der Eingangswert des Modbus-I/O-Server-Datenobjekts ist ungültig. Vergewissern Sie sich, dass der Datentyp des Eingangswerts mit dem des Modbus-I/O-Server-Datenobjekts übereinstimmt. Wenn es sich um ein Array handelt, muss die Länge des Arrays ebenfalls mit der des Modbus-I/O-Server-Datenobjekts übereinstimmen.
+</nierror>
+<nierror code="-1967353909">
+LabVIEW DSC:  (Hex 0x8ABC8FCB) Die Antwort des Modbus-Folgegeräts enthält nicht die angegebenen Datenobjekte. Prüfen Sie die Kommunikationseinstellungen der am Datenaustausch beteiligten Geräte.
+</nierror>
+<nierror code="-1967353908">
+LabVIEW DSC:  (Hex 0x8ABC8FCC) Die Adresse des angegebenen Datenobjekts ist keine zulässige Adresse für Modbus-Folgegeräte. Wenn der Modbus-I/O-Server einen Adressbereich in einem Befehl anfordert und eine Adresse dieses Bereichs auf dem Modbus-Slave-Gerät nicht vorhanden ist, wird dieser Fehler für alle Datenobjektadressen in dem Bereich ausgegeben. In der LabVIEW-Hilfe erfahren Sie, wie sie im Dialogfeld "Erweiterte Attributeinstellungen" die maximale Datenanzahl pro Befehl reduzieren können. Wenn der Fehler auch nach Setzen der maximalen Datenanzahl pro Befehl auf 1 für alle betroffenen Adresstypen weiterhin bestehen bleibt, nehmen Sie die Dokumentation des Modbus-Slave-Geräts zur Hilfe.
+</nierror>
+<nierror code="-1967353907">
+LabVIEW DSC:  (Hex 0x8ABC8FCD) Der Modbus-I/O-Server konnte nicht mit dem Modbus-Ethernet-Folgegerät kommunizieren. Vergewissern Sie sich, dass das Modbus-Folgegerät ordnungsgemäß funktioniert.
+</nierror>
+<nierror code="-1967353906">
+LabVIEW DSC:  (Hex 0x8ABC8FCE) Die Antwort vom Modbus-Folgegerät ist nicht lesbar. Prüfen Sie die Kommunikationseinstellungen der am Datenaustausch beteiligten Geräte.
+</nierror>
+<nierror code="-1967353905">
+LabVIEW DSC:  (Hex 0x8ABC8FCF) Das Modbus-Folgegerät unterstützt die angegebene Operation nicht. Welche Operationen mit dem Gerät möglich sind, erfahren Sie in der dazugehörigen Beschreibung.
+</nierror>
+<nierror code="-1967353904">
+LabVIEW DSC:  (Hex 0x8ABC8FD0) Die Antwort vom Modbus-Folgegerät ist nicht lesbar. Prüfen Sie die serielle Verbindung und die Kommunikationseinstellungen der am Datenaustausch beteiligten Geräte.
+</nierror>
+<nierror code="-1967353903">
+LabVIEW DSC:  (Hex 0x8ABC8FD1) Der Datenaustausch zwischen dem Modbus-Hauptgerät und den Folgegeräten wurde unterbrochen. Prüfen Sie den Verbindungsstatus zwischen den zwei Geräten.
+</nierror>
+<nierror code="-1967353902">
+LabVIEW DSC:  (Hex 0x8ABC8FD2) Der Modbus-I/O-Server erhält vom Modbus-Folgegerät keine Antwort. Vergewissern Sie sich, dass das Gerät ordnungsgemäß funktioniert und die Verbindung zwischen dem Modbus-Hauptgerät und den Folgegeräten richtig konfiguriert ist.
+</nierror>
+<nierror code="-1967353901">
+LabVIEW DSC:  (Hex 0x8ABC8FD3) Der Modbus-I/O-Server konnte keine Verbindung mit dem Modbus-Ethernet-Folgegerät herstellen. Vergewissern Sie sich, dass das Gerät ordnungsgemäß funktioniert und die Verbindung zwischen dem Modbus-Hauptgerät und den Folgegeräten richtig konfiguriert ist.
+</nierror>
+<nierror code="-1967353900">
+LabVIEW DSC:  (Hex 0x8ABC8FD4) Der Modbus-I/O-Server konnte keinen seriellen Port allokieren. Vergewissern Sie sich, dass der angegebene serielle Anschluss verfügbar ist.
+</nierror>
+<nierror code="-1967353856">
+LabVIEW DSC:  (Hex 0x8ABC9000) Ungültiger Occurrence-Wert. Verlassen Sie LabVIEW, starten Sie das Programm neu und versuchen Sie es noch einmal.
+</nierror>
+<nierror code="-1967353855">
+LabVIEW DSC:  (Hex 0x8ABC9001) Datenbank-Konfiguration ist nicht gültig.
+</nierror>
+<nierror code="-1967353854">
+LabVIEW DSC:  (Hex 0x8ABC9002) Die angegebenen Einträge (Traces) sind nicht in der Citadel-Datenbank enthalten.
+</nierror>
+<nierror code="-1967353853">
+LabVIEW DSC:  (Hex 0x8ABC9003) Das DSC-Modul arbeitet nicht mit der Version der angegebenen Citadel-Datenbankdatei. Sie müssen die Citadel-Datenbank zunächst in das Format "Citadel 5" umwandeln. Lesen Sie dazu den Abschnitt zum Historical Data Viewer in der Hilfe zum Measurement and Automation Explorer, der über <b>Hilfe>>Hilfethemen>>Historical Data Viewer</b> geöffnet wird.
+</nierror>
+<nierror code="-1967353851">
+LabVIEW DSC:  (Hex 0x8ABC9005) Die Eigenschaft "Enabled" einer SharedVariableIO-Klasse muss auf TRUE eingestellt sein, sonst können Sie die anderen Eigenschaften der Klasse nicht nutzen. So muss beispielsweise die Eigenschaft "Scaling:Enabled" TRUE sein, damit Sie irgendeine Skalierungseigenschaft nutzen können, wie beispielsweise "Scaling:Invert".
+</nierror>
+<nierror code="-1967353850">
+LabVIEW DSC:  (Hex 0x8ABC9006) Das DSC-Modul konnte diese Umgebungsvariable nicht ändern, da die Umgebungsvariable von einer anderen LabVIEW-Version stammt, als die, die Sie verwenden. Übertragen Sie die Umgebungsvariable daher noch einmal von der aktuellen LabVIEW-Version auf das System.
+</nierror>
+<nierror code="-1073479676">
+LabVIEW DSC:  (Hex 0xC0040004) Der OPC-Server kann die Daten nicht zwischen dem angegeben Format oder dem gewünschten Datentyp und dem vorschriftsmäßigen Datentyp umwandeln.
+</nierror>
+<nierror code="-1073479674">
+LabVIEW DSC:  (Hex 0xC0040006) Dieser Vorgang ist aufgrund der Zugriffsrechte (AccessRights) auf OPC-Objekte nicht gestattet.
+</nierror>
+<nierror code="-1073479673">
+LabVIEW DSC:  (Hex 0xC0040007) Die ID des Objekts wurde entweder beim Hinzufügen oder Validieren nicht im Adressraum des OPC-Servers festgelegt oder befindet sich für das Lesen oder Schreiben nicht mehr im Adressraum des IOC-Servers. 
+</nierror>
+<nierror code="-1073479669">
+LabVIEW DSC:  (Hex 0xC004000B) Der Wert, den der OPC-Client-I/O-Server an den OPC-Server übermitteln wollte, liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-1073414400">
+LabVIEW DSC:  (Hex 0xC004FF00) Der OPC-Server hat aus unbekanntem Grund einen Wert mit ungültigem Status ausgegeben. Beheben Sie diesen Fehler anhand der Dokumentation des OPC-Server-Herstellers.
+</nierror>
+<nierror code="-1073414399">
+LabVIEW DSC:  (Hex 0xC004FF01) Der Wert wurde überschrieben. Das bedeutet üblicherweise, dass der Eingang vom OPC-Server getrennt wurde und ein manuell eingegebener Wert übergeben wurde.
+</nierror>
+<nierror code="-1073414398">
+LabVIEW DSC:  (Hex 0xC004FF02) Es ist ein OPC-Server-spezifisches Problem mit der Konfiguration aufgetreten. So kann das OPC-Objekt zum Beispiel aus der Konfiguration gelöscht worden sein.
+</nierror>
+<nierror code="-1073414397">
+LabVIEW DSC:  (Hex 0xC004FF03) Die OPC-Objekte können keiner Datenquelle zugeordnet werden. Das kann bedeuten, dass momentan kein Wert vorliegt. Zum Beispiel kann es bedeuten, dass die Datenquelle den Wert nicht ausgegeben hat.
+</nierror>
+<nierror code="-1073414396">
+LabVIEW DSC:  (Hex 0xC004FF04) Der OPC-Server hat einen Geräteausfall festgestellt.
+</nierror>
+<nierror code="-1073414395">
+LabVIEW DSC:  (Hex 0xC004FF05) Der OPC-Server hat einen Sensorausfall festgestellt.
+</nierror>
+<nierror code="-1073414394">
+LabVIEW DSC:  (Hex 0xC004FF06) Das Gerät und der OPC-Server können nicht miteinander kommunizieren. Der letzte bekannte Wert ist verfügbar. Wie alt der Wert ist, kann mittels des Zeitstempels (TIMESTAMP) in OPCITEMSTATE ermittelt werden.
+</nierror>
+<nierror code="-1073414393">
+LabVIEW DSC:  (Hex 0xC004FF07) Das Gerät und der OPC-Server können nicht miteinander kommunizieren. Der letzte bekannte Wert ist nicht verfügbar.
+</nierror>
+<nierror code="-1073414392">
+LabVIEW DSC:  (Hex 0xC004FF08) Der Block liegt außerhalb des Scans oder ist anderweitig gesperrt. Dieser Fehler kann auch auftreten, wenn der Aktivierungszustand des OPC-Objekts "InActive" lautet oder der Aktivierungszustand der Gruppe, zu der das OPC-Objekt gehört, "InActive" lautet.
+</nierror>
+<nierror code="-1073414391">
+LabVIEW DSC:  (Hex 0xC004FF09) Das Schreiben des Werts wurde abgebrochen. Der ausgegebene Wert sollte daher als nicht aktuell betrachtet werden. Dieser Fehler tritt in der Regel auf, wenn von einer externen Quelle nicht innerhalb einer annehmbaren Zeitspanne ein neuer Wert nachgereicht wird. Wie alt der Wert ist, kann mittels des Zeitstempels in OPCITEMSTATE ermittelt werden.
+</nierror>
+<nierror code="-1073414390">
+LabVIEW DSC:  (Hex 0xC004FF0A) Entweder liegt der OPC-Wert an einem der Sensorlimits (in diesem Fall sollte das Feld "Limit" den Wert 1 oder 2 haben) oder es wurde anhand einer internen Diagnose festgestellt, dass der Sensor nicht mehr der Kalibrierung entspricht (in diesem Fall sollte das Feld "Limit" auf 0 eingestellt werden).
+</nierror>
+<nierror code="-1073414389">
+LabVIEW DSC:  (Hex 0xC004FF0B) Der ausgegebene OPC-Wert liegt außerhalb des für diesen Parameter festgelegten Bereichs. Beachten Sie, dass in diesem Fall das Feld 'Limits' (per Fieldbus-Spezifikationen) anzeigt, welcher Grenzwert überschritten wurde. Das bedeutet aber nicht automatisch, dass der Wert nicht noch weiter außerhalb des Bereichs liegen kann.
+</nierror>
+<nierror code="-1073414388">
+LabVIEW DSC:  (Hex 0xC004FF0C) Der OPC-Wert ist von mehreren Quellen abgeleitet und hat weniger gute Quellen als erforderlich.
+</nierror>
+<nierror code="-1073414387">
+LabVIEW DSC:  (Hex 0xC004FF0D) Die Anfangswerte sind auf dem OPC-Server nicht verfügbar. Nach dem Hinzufügen von OPC-Objekten zu einer Gruppe braucht der OPC-Server möglicherweise etwas Zeit, um die Anfangswerte für die OPC-Objekte zu ermitteln.
+</nierror>
+<nierror code="-7999">
+LabVIEW DSC:  Funktion ist nicht implementiert oder nicht verfügbar.
+</nierror>
+<nierror code="-7998">
+LabVIEW DSC:  Die Queue für den Protokoll-Thread konnte nicht zugewiesen werden.
+</nierror>
+<nierror code="-7997">
+LabVIEW DSC:  Es konnte kein Pufferspeicher für die Thread-Angaben zugewiesen werden.
+</nierror>
+<nierror code="-7995">
+LabVIEW DSC:  Es wurde versucht, Tag-Angaben anhand einer leeren Tag-Liste einzuholen.
+</nierror>
+<nierror code="-7994">
+LabVIEW DSC:  Es wurde versucht, eine Tag-Liste zu füllen, die nicht leer ist.
+</nierror>
+<nierror code="-7993">
+LabVIEW DSC:  Es wurde versucht, Angaben in eine Liste einzufügen, die nicht leer ist.
+</nierror>
+<nierror code="-7992">
+LabVIEW DSC:  Ein Arbeits-Thread muss abgebrochen werden.
+</nierror>
+<nierror code="-7991">
+LabVIEW DSC:  Es wurde versucht, einen undefinierten Arbeits-Thread einzuleiten.
+</nierror>
+<nierror code="-7988">
+LabVIEW DSC:  Ungültiges Datenereignis-Handle.
+</nierror>
+<nierror code="-7987">
+LabVIEW DSC:  Protokoll-Thread wurde bereits gestartet.
+</nierror>
+<nierror code="-7986">
+LabVIEW DSC:  Protokoll-Thread wurde nicht gestartet.
+</nierror>
+<nierror code="-7985">
+LabVIEW DSC:  Es wurden keine Threads zum Protokollieren geöffnet.
+</nierror>
+<nierror code="-7979">
+LabVIEW DSC:  Zeitstempel des ersten Datenpunkts ist nicht verfügbar.
+</nierror>
+<nierror code="-7978">
+LabVIEW DSC:  Zeitstempel des letzten Datenpunkts ist nicht verfügbar.
+</nierror>
+<nierror code="-7977">
+LabVIEW DSC:  Datentyp ist nicht verfügbar.
+</nierror>
+<nierror code="-7976">
+LabVIEW DSC:  Fehler beim Abfragen der Citadel-Datenbank-Version.
+</nierror>
+<nierror code="-7975">
+LabVIEW DSC:  Datenbank ist nicht geöffnet.
+</nierror>
+<nierror code="-7974">
+LabVIEW DSC:  Ausnahmefehler der threadweise verarbeiteten Datenbank. Einzelheiten unbekannt.
+</nierror>
+<nierror code="-7973">
+LabVIEW DSC:  Ungültige OTDB-Struktur.
+</nierror>
+<nierror code="-7972">
+LabVIEW DSC:  Der Pfad zu der threadweise verarbeiteten Datenbankdatei kann nicht gefunden oder erstellt werden
+</nierror>
+<nierror code="-7971">
+LabVIEW DSC:  Die threadweise verarbeitete Datenbankdatei kann nicht gefunden oder erstellt werden
+</nierror>
+<nierror code="-7970">
+LabVIEW DSC:  Die threadweise verarbeitete Datenbankdatei kann nicht abgefragt werden.
+</nierror>
+<nierror code="-7969">
+LabVIEW DSC:  Datenbank kann nicht geleert werden.
+</nierror>
+<nierror code="-7968">
+LabVIEW DSC:  Ungültiges Handle für threadweise verarbeitete Datenbank.
+</nierror>
+<nierror code="-7967">
+LabVIEW DSC:  Falsche Citadel-Datenbank-Version.
+</nierror>
+<nierror code="-7966">
+LabVIEW DSC:  In threadweise verarbeitete Datenbankdatei kann nicht geschrieben werden.
+</nierror>
+<nierror code="-7965">
+LabVIEW DSC:  TDBMutex kann nicht innerhalb der Zeitbegrenzung eingeholt werden.
+</nierror>
+<nierror code="-7964">
+LabVIEW DSC:  Kann nicht mit dem RPC-Server kommunizieren.
+</nierror>
+<nierror code="-7963">
+LabVIEW DSC:  Eine andere Datenbank ist bereits geöffnet.
+</nierror>
+<nierror code="-7962">
+LabVIEW DSC:  Ungültige(r) Parameter für FlushThreadDatabase (Leeren der Thread-Datenbank).
+</nierror>
+<nierror code="-7961">
+LabVIEW DSC:  Datenbank ist bereits im Lese-Schreibmodus geöffnet.
+</nierror>
+<nierror code="-7960">
+LabVIEW DSC:  Datenbank muss im Lese-Schreibmodus geöffnet sein.
+</nierror>
+<nierror code="-7959">
+LabVIEW DSC:  <Not A Path> ist für die Protokollierung der Historie ungültig.
+</nierror>
+<nierror code="-7958">
+LabVIEW DSC:  Relativer Pfad ist für die Protokollierung der Historie ungültig.
+</nierror>
+<nierror code="-7957">
+LabVIEW DSC:  Leerer Pfad ist für die Protokollierung der Historie ungültig.
+</nierror>
+<nierror code="-7956">
+LabVIEW DSC:  Bei dem angegeben Historie-Datenbankverzeichnis handelt es sich um eine Datei.
+</nierror>
+<nierror code="-7955">
+LabVIEW DSC:  Verzeichnis der historischen Datenbank ist nicht vorhanden.
+</nierror>
+<nierror code="-7954">
+LabVIEW DSC:  Es wurde versucht, die Citadel-Datenbank vor dem Anfang der Daten zu durchsuchen.
+</nierror>
+<nierror code="-7953">
+LabVIEW DSC:  Es wurde versucht, die Citadel-Datenbank über das Ende der Daten hinaus zu durchsuchen.
+</nierror>
+<nierror code="-7950">
+LabVIEW DSC:  Ausnahmefehler in Thread. Einzelheiten unbekannt.
+</nierror>
+<nierror code="-7949">
+LabVIEW DSC:  Ungültige OTHREAD-Struktur.
+</nierror>
+<nierror code="-7948">
+LabVIEW DSC:  Datenbank-Thread kann nicht gefunden oder erstellt werden.
+</nierror>
+<nierror code="-7947">
+LabVIEW DSC:  Datenbank-Thread kann nicht gelesen werden.
+</nierror>
+<nierror code="-7946">
+LabVIEW DSC:  Datenbank-Thread kann nicht geschrieben werden.
+</nierror>
+<nierror code="-7945">
+LabVIEW DSC:  Ungültiges Datenbank-Thread-Handle.
+</nierror>
+<nierror code="-7944">
+LabVIEW DSC:  Name des Datenbank-Threads wurde nicht gefunden.
+</nierror>
+<nierror code="-7943">
+LabVIEW DSC:  Fehler beim Protokollieren des Datenbankeintrags.
+</nierror>
+<nierror code="-7942">
+LabVIEW DSC:  Leerer Thread-Name wurde an OpenThread gesendet.
+</nierror>
+<nierror code="-7941">
+LabVIEW DSC:  Nicht definierter Datentyp.
+</nierror>
+<nierror code="-7940">
+LabVIEW DSC:  Ungültiges Enumeration-Handle.
+</nierror>
+<nierror code="-7935">
+LabVIEW DSC:  Ausnahmefehler in Thread-Datei. Einzelheiten unbekannt.
+</nierror>
+<nierror code="-7934">
+LabVIEW DSC:  Thread-Datei konnte nicht gefunden oder erstellt werden.
+</nierror>
+<nierror code="-7933">
+LabVIEW DSC:  Thread-Datei konnte nicht gelesen werden.
+</nierror>
+<nierror code="-7932">
+LabVIEW DSC:  Thread-Datei konnte nicht geschrieben werden.
+</nierror>
+<nierror code="-7931">
+LabVIEW DSC:  Inkompatible Versionen.
+</nierror>
+<nierror code="-7925">
+LabVIEW DSC:  Ausnahmefehler in der Thread-Abfrage. Einzelheiten unbekannt.
+</nierror>
+<nierror code="-7924">
+LabVIEW DSC:  Ungültige OTHREAD-Struktur.
+</nierror>
+<nierror code="-7923">
+LabVIEW DSC:  Puffergröße unterschreitet die Seitengröße.
+</nierror>
+<nierror code="-7922">
+LabVIEW DSC:  Fehlerhaftes Thread-Abfrage-Handle.
+</nierror>
+<nierror code="-7912">
+LabVIEW DSC:  Es wurde eine leere Liste mit Tags and das VI "Historical Trends.vi" gesendet.
+</nierror>
+<nierror code="-7911">
+LabVIEW DSC:  Ungültige Trendgröße (0).
+</nierror>
+<nierror code="-7910">
+LabVIEW DSC:  Der Sample-Intervall muss >= 0,00 sein.
+</nierror>
+<nierror code="-7900">
+LabVIEW DSC:  Protokoll-Queue ist überfüllt.
+</nierror>
+<nierror code="-7899">
+LabVIEW DSC:  Konnte keinen Speicherplatz reservieren.
+</nierror>
+<nierror code="-7898">
+LabVIEW DSC:  Konnte keinen Speicherblock freigeben.
+</nierror>
+<nierror code="-7897">
+LabVIEW DSC:  Konnte keinen Speicherblock sperren.
+</nierror>
+<nierror code="-7896">
+LabVIEW DSC:  Die Sperrung eines Speicherblocks konnte nicht aufgehoben werden.
+</nierror>
+<nierror code="-7895">
+LabVIEW DSC:  Fehler von CreateThread.
+</nierror>
+<nierror code="-7894">
+LabVIEW DSC:  Fehler von CreateEvent.
+</nierror>
+<nierror code="-7893">
+LabVIEW DSC:  Das Handle konnte nicht geschlossen werden.
+</nierror>
+<nierror code="-7892">
+LabVIEW DSC:  Der Exit-Code des Threads konnte nicht aufgefunden werden.
+</nierror>
+<nierror code="-7891">
+LabVIEW DSC:  Das Ereignis konnte nicht festgelegt werden.
+</nierror>
+<nierror code="-7890">
+LabVIEW DSC:  Der Thread konnte nicht beendet werden.
+</nierror>
+<nierror code="-7889">
+LabVIEW DSC:  Die ID des aktuellen Threads konnte nicht abgefragt werden.
+</nierror>
+<nierror code="-7888">
+LabVIEW DSC:  Ein Windows Hook konnte nicht eingerichtet werden.
+</nierror>
+<nierror code="-7887">
+LabVIEW DSC:  Ein Windows Hook konnte nicht entfernt werden.
+</nierror>
+<nierror code="-7563">
+LabVIEW DSC:  Beim Versuch, eine Verbindung mit einer anderen Variablen-Engine herzustellen, wurde der Zugriff verweigert.
+</nierror>
+<nierror code="-7203">
+LabVIEW DSC:  Servertyp wird nicht unterstützt.
+</nierror>
+<nierror code="-7202">
+LabVIEW DSC:  Ungültiger Servername.
+</nierror>
+<nierror code="-7201">
+LabVIEW DSC:  Überlauf der Queue.
+</nierror>
+<nierror code="-7113">
+LabVIEW DSC:  Der Gruppenname ist nicht definiert.
+</nierror>
+<nierror code="-7112">
+LabVIEW DSC:  Falsche Tag-Zugriffsrechte.
+</nierror>
+<nierror code="-7111">
+LabVIEW DSC:  Keine Tags im Speicher.
+</nierror>
+<nierror code="-7110">
+LabVIEW DSC:  Falscher Tag-Datentyp.
+</nierror>
+<nierror code="-7109">
+LabVIEW DSC:  Tag hat ungültige Alarmgrenze.
+</nierror>
+<nierror code="-7108">
+LabVIEW DSC:  Tag-Engine läuft nicht.
+</nierror>
+<nierror code="-7107">
+LabVIEW DSC:  Keine Tags zum Drucken konfiguriert.
+</nierror>
+<nierror code="-7106">
+LabVIEW DSC:  Keine Tags zum Protokollieren historischer Daten konfiguriert.
+</nierror>
+<nierror code="-7105">
+LabVIEW DSC:  Keine Tags zum Protokollieren von Ereignissen konfiguriert.
+</nierror>
+<nierror code="-7104">
+LabVIEW DSC:  Ungültiger Druckeranschluss konfiguriert.
+</nierror>
+<nierror code="-7103">
+LabVIEW DSC:  Ungültiger Pfad für das Protokollieren historischer Daten konfiguriert.
+</nierror>
+<nierror code="-7102">
+LabVIEW DSC:  Ungültiger Pfad für das Protokollieren von Ereignissen konfiguriert.
+</nierror>
+<nierror code="-7101">
+LabVIEW DSC:  Der angegebene Tag-Name ist nicht definiert.
+</nierror>
+<nierror code="180092949">
+LabVIEW DSC:  (Hex 0xABC0015) Element nicht gefunden - Vorgang war dennoch erfolgreich.
+</nierror>
+<nierror code="180129793">
+LabVIEW DSC:  (Hex 0xABC9001) Ein Objekt möchte über Alarme oder sonstige Ereignisse informiert werden.
+</nierror>
+<nierror code="180129794">
+LabVIEW DSC:  (Hex 0xABC9002) Nicht alle angegebenen Einträge (Traces) sind in der Citadel-Datenbank enthalten. Vergewissern Sie sich, dass der Name richtig angegeben wurde.
+</nierror>
+<nierror code="180129796">
+LabVIEW DSC:  (Hex 0xABC9004) Funktion wurde entfernt.
+</nierror>
+</nidocument>
