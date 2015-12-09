@@ -358,9 +358,63 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
-		<Item Name="RT Management.lvlib" Type="Library" URL="../RT Management.lvlib"/>
+		<Item Name="RT Management" Type="Folder">
+			<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
+			<Item Name="RT Management.lvlib" Type="Library" URL="../RT Management.lvlib"/>
+		</Item>
+		<Item Name="User Components" Type="Folder">
+			<Item Name="SMI" Type="Folder">
+				<Item Name="FPGABitfiles" Type="Folder">
+					<Item Name="9030_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9030_ReadEEPROM.lvbitx"/>
+					<Item Name="9031_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9031_ReadEEPROM.lvbitx"/>
+					<Item Name="9033_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9033_ReadEEPROM.lvbitx"/>
+					<Item Name="9034_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9034_ReadEEPROM.lvbitx"/>
+					<Item Name="9035_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9035_ReadEEPROM.lvbitx"/>
+					<Item Name="9036_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9036_ReadEEPROM.lvbitx"/>
+					<Item Name="9038_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9038_ReadEEPROM.lvbitx"/>
+					<Item Name="9039_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9039_ReadEEPROM.lvbitx"/>
+					<Item Name="9063_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9063_ReadEEPROM.lvbitx"/>
+					<Item Name="9064_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9064_ReadEEPROM.lvbitx"/>
+					<Item Name="9065_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9065_ReadEEPROM.lvbitx"/>
+					<Item Name="9066_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9066_ReadEEPROM.lvbitx"/>
+					<Item Name="9067_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9067_ReadEEPROM.lvbitx"/>
+					<Item Name="9068_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9068_ReadEEPROM.lvbitx"/>
+					<Item Name="9072_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9072_ReadEEPROM.lvbitx"/>
+					<Item Name="9073_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9073_ReadEEPROM.lvbitx"/>
+					<Item Name="9074_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9074_ReadEEPROM.lvbitx"/>
+					<Item Name="9075_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9075_ReadEEPROM.lvbitx"/>
+					<Item Name="9076_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9076_ReadEEPROM.lvbitx"/>
+					<Item Name="9081_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9081_ReadEEPROM.lvbitx"/>
+					<Item Name="9082_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9082_ReadEEPROM.lvbitx"/>
+					<Item Name="9101_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9101_ReadEEPROM.lvbitx"/>
+					<Item Name="9102_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9102_ReadEEPROM.lvbitx"/>
+					<Item Name="9103_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9103_ReadEEPROM.lvbitx"/>
+					<Item Name="9104_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9104_ReadEEPROM.lvbitx"/>
+					<Item Name="9111_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9111_ReadEEPROM.lvbitx"/>
+					<Item Name="9112_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9112_ReadEEPROM.lvbitx"/>
+					<Item Name="9113_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9113_ReadEEPROM.lvbitx"/>
+					<Item Name="9114_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9114_ReadEEPROM.lvbitx"/>
+					<Item Name="9116_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9116_ReadEEPROM.lvbitx"/>
+					<Item Name="9118_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9118_ReadEEPROM.lvbitx"/>
+					<Item Name="9146_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9146_ReadEEPROM.lvbitx"/>
+					<Item Name="9147_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9147_ReadEEPROM.lvbitx"/>
+					<Item Name="9148_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9148_ReadEEPROM.lvbitx"/>
+					<Item Name="9149_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9149_ReadEEPROM.lvbitx"/>
+					<Item Name="9154_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9154_ReadEEPROM.lvbitx"/>
+					<Item Name="9155_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9155_ReadEEPROM.lvbitx"/>
+					<Item Name="9157_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9157_ReadEEPROM.lvbitx"/>
+					<Item Name="9159_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9159_ReadEEPROM.lvbitx"/>
+					<Item Name="9601_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9601_ReadEEPROM.lvbitx"/>
+					<Item Name="9602_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9602_ReadEEPROM.lvbitx"/>
+					<Item Name="9607_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9607_ReadEEPROM.lvbitx"/>
+					<Item Name="9627_ReadEEPROM.lvbitx" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/FPGABitfiles/9627_ReadEEPROM.lvbitx"/>
+				</Item>
+				<Item Name="RIO_FPGA_ComboChassis.cdf" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/RIO_FPGA_ComboChassis.cdf"/>
+				<Item Name="RIO_FPGA_IntegratedChassis.cdf" Type="Document" URL="../../export/User Components/System Management and Information (SMI)/2015.0.0.1/RIO_FPGA_IntegratedChassis.cdf"/>
+			</Item>
+		</Item>
 		<Item Name="SMI.lvlib" Type="Library" URL="../SMI.lvlib"/>
+		<Item Name="System Management and Information (SMI) README.txt" Type="Document" URL="../../documentation/System Management and Information (SMI) README.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -634,11 +688,16 @@
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
+				<Item Name="Refresh Modules.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Refresh Modules.vi"/>
 			</Item>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -1577,6 +1636,34 @@
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
+DirectoryIndex index.htm
+WorkerLimit 10
+InactivityTimeout 60
+
+LoadModulePath "$LVSERVER_MODULEPATHS"
+LoadModule LVAuth lvauthmodule
+LoadModule LVRFP lvrfpmodule
+
+#
+# Pipeline Definition
+#
+
+SetConnector netConnector
+
+AddHandler LVAuth
+AddHandler LVRFP
+
+AddHandler fileHandler ""
+
+AddOutputFilter chunkFilter
+
+
+</Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
