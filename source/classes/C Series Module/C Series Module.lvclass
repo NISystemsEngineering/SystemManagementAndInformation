@@ -29,6 +29,222 @@
 	<Item Name="subVIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="cRIO FPGA" Type="Folder">
+			<Item Name="cRIO FPGA EEPROM Access_Mod1.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod1.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod2.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod2.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod3.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod3.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod4.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod4.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod5.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod5.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod6.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod6.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod7.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod7.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod8.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod8.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod9.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod9.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod10.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod10.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod11.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod11.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod12.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod12.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod13.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod13.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA EEPROM Access_Mod14.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA EEPROM Access_Mod14.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!#!!%!!!!"1!&amp;!!!71%!!!9!!!!1!!1B%982B)'^V&gt;!!!%U!&amp;!!R897FU)#B5;7.L=SE!!!V!"1!(4H6N:8*J9Q!51%!!!9!!!!1!"!&gt;%982B)'FO!!N!"1!&amp;9HFU:8-!6!$Q!!Q!!!!#!!!!!!!!!!!!!Q!!!!!!"1!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108867</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA Read EEPROM_3 Slots.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA Read EEPROM_3 Slots.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"]!!!!"!!%!!!!$U!&amp;!!F%982B)&amp;*F971!$5!'!!&gt;":'2S:8.T!&amp;1!]!!-!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A!!!Q!!?!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!%!!Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108875</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA Read EEPROM_4 Slots.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA Read EEPROM_4 Slots.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"]!!!!"!!%!!!!$U!&amp;!!F%982B)&amp;*F971!$5!'!!&gt;":'2S:8.T!&amp;1!]!!-!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A!!!Q!!?!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!%!!Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108875</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA Read EEPROM_8 Slots.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA Read EEPROM_8 Slots.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"]!!!!"!!%!!!!$U!&amp;!!F%982B)&amp;*F971!$5!'!!&gt;":'2S:8.T!&amp;1!]!!-!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A!!!Q!!?!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!%!!Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108875</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA Read EEPROM_14 Slots.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA Read EEPROM_14 Slots.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"]!!!!"!!%!!!!$U!&amp;!!F%982B)&amp;*F971!$5!'!!&gt;":'2S:8.T!&amp;1!]!!-!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A!!!Q!!?!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!%!!Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108875</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="cRIO FPGA ReadWrite EEPROM.vi" Type="VI" URL="../subVIs/cRIO FPGA/cRIO FPGA ReadWrite EEPROM.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$Z!!!!#!!%!!!!'U!6!!)%5G6B:!68=GFU:1!!"U.P&lt;7VB&lt;G1!$5!'!!&gt;":'2S:8.T!".!"1!.2'&amp;U93"5&lt;S"8=GFU:1!41!5!$&amp;2J&lt;76P&gt;81A+'VT+1!!$%!B"V2J&lt;76P&gt;81!$U!&amp;!!F%982B)&amp;*F971!B!$Q!"1!!!!"!!)!!Q!%!!!!!!!!!!!!!!!!!!!!!!!!!!5!!!!'!!!!!!!!!Q!"%!!!!!!!!!I!!!!+!!!!#A!!!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!1!(!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">67108875</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+		</Item>
+		<Item Name="FPGABitfiles" Type="Folder">
+			<Item Name="9030_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9030_ReadEEPROM.lvbitx"/>
+			<Item Name="9031_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9031_ReadEEPROM.lvbitx"/>
+			<Item Name="9033_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9033_ReadEEPROM.lvbitx"/>
+			<Item Name="9034_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9034_ReadEEPROM.lvbitx"/>
+			<Item Name="9035_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9035_ReadEEPROM.lvbitx"/>
+			<Item Name="9036_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9036_ReadEEPROM.lvbitx"/>
+			<Item Name="9038_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9038_ReadEEPROM.lvbitx"/>
+			<Item Name="9039_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9039_ReadEEPROM.lvbitx"/>
+			<Item Name="9063_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9063_ReadEEPROM.lvbitx"/>
+			<Item Name="9064_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9064_ReadEEPROM.lvbitx"/>
+			<Item Name="9065_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9065_ReadEEPROM.lvbitx"/>
+			<Item Name="9066_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9066_ReadEEPROM.lvbitx"/>
+			<Item Name="9067_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9067_ReadEEPROM.lvbitx"/>
+			<Item Name="9068_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9068_ReadEEPROM.lvbitx"/>
+			<Item Name="9072_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9072_ReadEEPROM.lvbitx"/>
+			<Item Name="9073_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9073_ReadEEPROM.lvbitx"/>
+			<Item Name="9074_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9074_ReadEEPROM.lvbitx"/>
+			<Item Name="9075_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9075_ReadEEPROM.lvbitx"/>
+			<Item Name="9076_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9076_ReadEEPROM.lvbitx"/>
+			<Item Name="9081_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9081_ReadEEPROM.lvbitx"/>
+			<Item Name="9082_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9082_ReadEEPROM.lvbitx"/>
+			<Item Name="9101_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9101_ReadEEPROM.lvbitx"/>
+			<Item Name="9102_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9102_ReadEEPROM.lvbitx"/>
+			<Item Name="9103_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9103_ReadEEPROM.lvbitx"/>
+			<Item Name="9104_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9104_ReadEEPROM.lvbitx"/>
+			<Item Name="9111_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9111_ReadEEPROM.lvbitx"/>
+			<Item Name="9112_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9112_ReadEEPROM.lvbitx"/>
+			<Item Name="9113_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9113_ReadEEPROM.lvbitx"/>
+			<Item Name="9114_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9114_ReadEEPROM.lvbitx"/>
+			<Item Name="9116_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9116_ReadEEPROM.lvbitx"/>
+			<Item Name="9118_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9118_ReadEEPROM.lvbitx"/>
+			<Item Name="9146_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9146_ReadEEPROM.lvbitx"/>
+			<Item Name="9147_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9147_ReadEEPROM.lvbitx"/>
+			<Item Name="9148_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9148_ReadEEPROM.lvbitx"/>
+			<Item Name="9149_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9149_ReadEEPROM.lvbitx"/>
+			<Item Name="9154_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9154_ReadEEPROM.lvbitx"/>
+			<Item Name="9155_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9155_ReadEEPROM.lvbitx"/>
+			<Item Name="9157_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9157_ReadEEPROM.lvbitx"/>
+			<Item Name="9159_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9159_ReadEEPROM.lvbitx"/>
+			<Item Name="9601_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9601_ReadEEPROM.lvbitx"/>
+			<Item Name="9602_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9602_ReadEEPROM.lvbitx"/>
+		</Item>
 		<Item Name="C Series Module Information (FPGA).vi" Type="VI" URL="../subVIs/C Series Module Information (FPGA).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!H&gt;!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'6G6O:'^S!!!/1$$`````"5VP:'6M!"&amp;!"A!,47^E&gt;7RF)%.P:'5!&amp;E!Q`````QV4:8*J97QA4H6N9G6S!&amp;U!]1!!!!!!!!!$#6..33ZM&gt;GRJ9AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=R6.&lt;W2V&lt;'6*&lt;G:P=GVB&gt;'FP&lt;CZD&gt;'Q!*E"1!!1!"1!'!!=!#"*.&lt;W2V&lt;'5A37ZG&lt;X*N982J&lt;WY!"$B!=!!5!!!!!":'5%&gt;")%FO&gt;'6S:G&amp;D:3"%?7ZB&lt;7FD!"5!A!!!!!![!"E!&amp;A!"%&amp;&gt;B;W6V=#"X97FU)#BN=SE!!!!81!=!%&amp;&gt;B;W6V=#"X97FU)#BN=SE!!!]!&amp;A!""W.P&lt;H2S&lt;WQ!!!Q!5!!$!!!!!1!#!!]!&amp;A!""EVP:(6M:1!!!!V!"A!'47^E&gt;7RF!!!-!&amp;!!!Q!%!!5!!A!.!"9!!124&gt;'^Q!!!!#E!B"&amp;.U&lt;X!!!!Q!5!!$!!=!#!!#!!]!&amp;A!""U6Y:7.V&gt;'5!!!R!)1&gt;&amp;?'6D&gt;82F!!Q!5!!$!!I!#Q!#!"%!&amp;A!"#52B&gt;'%A5G6B:!!!$U!&amp;!!F%982B)&amp;*F971!%1!7!!%*;7ZE;7.B&gt;'^S!!!-!&amp;!!!Q!.!!Y!$Q!0!"9!!1&gt;":'2S:8.T!!!.1!9!"U&amp;E:(*F=X-!$!"1!!-!%1!3!!)!%A"1!!9!!Q!'!!E!$!!1!"-!"A"1!!!!%1!7!!%*5G6B:#"52524!!!.!"9!!124&lt;'^U!!!!"1!'!!!.!"9!!16J&lt;H"V&gt;!!!%1!7!!%)=G6R&gt;7FS:71!!!!/!&amp;!!"!!8!"A!'1!;!!]!&amp;A!""U.I97ZO:7Q!!!Y!5!!%!"Q!'!!:!"I!%Q!7!!%,6%6%5S"#;7ZB=HE!!!1!)1!-!%!!!@````]!(Q!0!"9!!1:P&gt;82Q&gt;81!!!!/!&amp;!!"!!?!#!!)1!;!"-!&amp;A!"#X9Q,DEA+&amp;2&amp;2&amp;-J!!!/!&amp;!!"!!D!"]!)1!;!"!!5!!&amp;!"9!'Q!&gt;!#)!*!!6!"9!!1V.&lt;X6O&gt;#"42#"$98*E!!!&amp;!!5!!!Y!5!!%!!1!*Q!:!"I!%1!7!!%*1W&amp;S:#"4&lt;'^U!!!2!"9!!1BP=(2J&lt;WZB&lt;!!!!!Y!5!!%!#E!*Q!:!#I!&amp;1!7!!%-2(*J&gt;G5A3'&amp;O:'RF!!!!"1!(!!!/!&amp;!!"!!M!#U!)1!K!"5!&amp;A!"$%2S;8:F)%RF&gt;(2F=A!!!!Z!-P````]%5'&amp;U;!!!$A"1!!1!,Q!Q!#%!+A!1!&amp;!!"1!G!#A!+Q!O!$%!&amp;Q!7!!%067ZN&lt;X6O&gt;#"42#"$98*E!!!/!&amp;!!"!!M!#U!'1!;!!I!5!!#!$-!.!!@!"9!!2&gt;6&lt;H.F9X6S:71A47^V&lt;H1A5U1A1W&amp;S:!!!%!"1!!5!.A!I!#M!,A!R!!Y!5!!%!#5!-A!V!$=!$!"1!!-!&amp;!!6!$A!!1!Z!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"16%AQ!!!!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!&amp;"53$!!!!!%!!!!!!!!!!!!!!!!#F*F:GZV&lt;3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!.1!9!"EVP:(6M:1!%.E"Q!"1!!!!!&amp;E:12U%A37ZU:8*G97.F)%2Z&lt;G&amp;N;7-!&amp;1#!!!!!!$I!'1!7!!%16W&amp;L:86Q)(&gt;B;81A+'VT+1!!!"&gt;!"Q!16W&amp;L:86Q)(&gt;B;81A+'VT+1!!$Q!7!!%(9W^O&gt;(*P&lt;!!!$!"1!!-!!!!"!!)!$Q!7!!%'47^E&gt;7RF!!!!$5!'!!:.&lt;W2V&lt;'5!!!Q!5!!$!!1!"1!#!!U!&amp;A!""&amp;.U&lt;X!!!!!+1#%%5X2P=!!!$!"1!!-!"Q!)!!)!$Q!7!!%(28BF9X6U:1!!$%!B"U6Y:7.V&gt;'5!$!"1!!-!#A!,!!)!%1!7!!%*2'&amp;U93"3:7&amp;E!!!01!5!#52B&gt;'%A5G6B:!!2!"9!!1FJ&lt;G2J9W&amp;U&lt;X)!!!Q!5!!$!!U!$A!0!!]!&amp;A!""U&amp;E:(*F=X-!!!V!"A!(172E=G6T=Q!-!&amp;!!!Q!2!")!!A!3!&amp;!!"A!$!!9!#1!-!"!!%Q!'!&amp;!!!!!2!"9!!1F3:7&amp;E)&amp;2&amp;2&amp;-!!!U!&amp;A!""&amp;.M&lt;X1!!!!&amp;!!9!!!U!&amp;A!""7FO=(6U!!!2!"9!!1BS:8&amp;V;8*F:!!!!!Y!5!!%!"=!'!!:!"I!$Q!7!!%(1WBB&lt;GZF&lt;!!!$A"1!!1!(!!9!"E!'A!4!"9!!1N52524)%*J&lt;G&amp;S?1!!"!!B!!Q!1!!"`````Q!@!!]!&amp;A!""G^V&gt;("V&gt;!!!!!Y!5!!%!"Y!)!!B!"I!%Q!7!!%,&gt;D!O/3!I6%6%5SE!!!Y!5!!%!#-!(Q!B!"I!%!"1!!5!&amp;A!&lt;!"U!)A!E!"5!&amp;A!"$5VP&gt;7ZU)&amp;.%)%.B=G1!!!5!"1!!$A"1!!1!"!!H!"E!'A!2!"9!!1F$98*E)&amp;.M&lt;X1!!"%!&amp;A!"#'^Q&gt;'FP&lt;G&amp;M!!!!$A"1!!1!+1!H!"E!+A!6!"9!!1R%=GFW:3")97ZE&lt;'5!!!!&amp;!!=!!!Y!5!!%!#Q!,1!B!#I!&amp;1!7!!%-2(*J&gt;G5A4'6U&gt;'6S!!!!$E!S`````Q21982I!!!/!&amp;!!"!!P!$!!)1!K!"!!5!!&amp;!#9!+!!L!#Y!-1!8!"9!!1^6&lt;GVP&gt;7ZU)&amp;.%)%.B=G1!!!Y!5!!%!#Q!,1!:!"I!#A"1!!)!-Q!U!"]!&amp;A!"&amp;V6O=W6D&gt;8*F:#".&lt;X6O&gt;#"42#"$98*E!!!1!&amp;!!"1!W!#A!+Q!O!$%!$A"1!!1!*1!S!$5!.Q!-!&amp;!!!Q!5!"5!/!!"!$E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!&amp;"53$!!!!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!5&amp;2)-!!!!!1!!!!!!!!!!!!!!!!*5G6G&lt;H6N)'FO!'%!]!!-!!-!"!!*!!I!"!!%!!1!"!!,!!1!$!!.!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -46,15 +262,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
-		</Item>
-		<Item Name="C Series Module EEPROM Information.vi" Type="VI" URL="../subVIs/C Series Module EEPROM Information.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!H&gt;!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'6G6O:'^S!!!/1$$`````"5VP:'6M!"&amp;!"A!,47^E&gt;7RF)%.P:'5!&amp;E!Q`````QV4:8*J97QA4H6N9G6S!&amp;U!]1!!!!!!!!!$#6..33ZM&gt;GRJ9AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=R6.&lt;W2V&lt;'6*&lt;G:P=GVB&gt;'FP&lt;CZD&gt;'Q!*E"1!!1!"1!'!!=!#"*.&lt;W2V&lt;'5A37ZG&lt;X*N982J&lt;WY!"$B!=!!5!!!!!":'5%&gt;")%FO&gt;'6S:G&amp;D:3"%?7ZB&lt;7FD!"5!A!!!!!![!"E!&amp;A!"%&amp;&gt;B;W6V=#"X97FU)#BN=SE!!!!81!=!%&amp;&gt;B;W6V=#"X97FU)#BN=SE!!!]!&amp;A!""W.P&lt;H2S&lt;WQ!!!Q!5!!$!!!!!1!#!!]!&amp;A!""EVP:(6M:1!!!!V!"A!'47^E&gt;7RF!!!-!&amp;!!!Q!%!!5!!A!.!"9!!124&gt;'^Q!!!!#E!B"&amp;.U&lt;X!!!!Q!5!!$!!=!#!!#!!]!&amp;A!""U6Y:7.V&gt;'5!!!R!)1&gt;&amp;?'6D&gt;82F!!Q!5!!$!!I!#Q!#!"%!&amp;A!"#52B&gt;'%A5G6B:!!!$U!&amp;!!F%982B)&amp;*F971!%1!7!!%*;7ZE;7.B&gt;'^S!!!-!&amp;!!!Q!.!!Y!$Q!0!"9!!1&gt;":'2S:8.T!!!.1!9!"U&amp;E:(*F=X-!$!"1!!-!%1!3!!)!%A"1!!9!!Q!'!!E!$!!1!"-!"A"1!!!!%1!7!!%*5G6B:#"52524!!!.!"9!!124&lt;'^U!!!!"1!'!!!.!"9!!16J&lt;H"V&gt;!!!%1!7!!%)=G6R&gt;7FS:71!!!!/!&amp;!!"!!8!"A!'1!;!!]!&amp;A!""U.I97ZO:7Q!!!Y!5!!%!"Q!'!!:!"I!%Q!7!!%,6%6%5S"#;7ZB=HE!!!1!)1!-!%!!!@````]!(Q!0!"9!!1:P&gt;82Q&gt;81!!!!/!&amp;!!"!!?!#!!)1!;!"-!&amp;A!"#X9Q,DEA+&amp;2&amp;2&amp;-J!!!/!&amp;!!"!!D!"]!)1!;!"!!5!!&amp;!"9!'Q!&gt;!#)!*!!6!"9!!1V.&lt;X6O&gt;#"42#"$98*E!!!&amp;!!5!!!Y!5!!%!!1!*Q!:!"I!%1!7!!%*1W&amp;S:#"4&lt;'^U!!!2!"9!!1BP=(2J&lt;WZB&lt;!!!!!Y!5!!%!#E!*Q!:!#I!&amp;1!7!!%-2(*J&gt;G5A3'&amp;O:'RF!!!!"1!(!!!/!&amp;!!"!!M!#U!)1!K!"5!&amp;A!"$%2S;8:F)%RF&gt;(2F=A!!!!Z!-P````]%5'&amp;U;!!!$A"1!!1!,Q!Q!#%!+A!1!&amp;!!"1!G!#A!+Q!O!$%!&amp;Q!7!!%067ZN&lt;X6O&gt;#"42#"$98*E!!!/!&amp;!!"!!M!#U!'1!;!!I!5!!#!$-!.!!@!"9!!2&gt;6&lt;H.F9X6S:71A47^V&lt;H1A5U1A1W&amp;S:!!!%!"1!!5!.A!I!#M!,A!R!!Y!5!!%!#5!-A!V!$=!$!"1!!-!&amp;!!6!$A!!1!Z!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"16%AQ!!!!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!&amp;"53$!!!!!%!!!!!!!!!!!!!!!!#F*F:GZV&lt;3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!.1!9!"EVP:(6M:1!%.E"Q!"1!!!!!&amp;E:12U%A37ZU:8*G97.F)%2Z&lt;G&amp;N;7-!&amp;1#!!!!!!$I!'1!7!!%16W&amp;L:86Q)(&gt;B;81A+'VT+1!!!"&gt;!"Q!16W&amp;L:86Q)(&gt;B;81A+'VT+1!!$Q!7!!%(9W^O&gt;(*P&lt;!!!$!"1!!-!!!!"!!)!$Q!7!!%'47^E&gt;7RF!!!!$5!'!!:.&lt;W2V&lt;'5!!!Q!5!!$!!1!"1!#!!U!&amp;A!""&amp;.U&lt;X!!!!!+1#%%5X2P=!!!$!"1!!-!"Q!)!!)!$Q!7!!%(28BF9X6U:1!!$%!B"U6Y:7.V&gt;'5!$!"1!!-!#A!,!!)!%1!7!!%*2'&amp;U93"3:7&amp;E!!!01!5!#52B&gt;'%A5G6B:!!2!"9!!1FJ&lt;G2J9W&amp;U&lt;X)!!!Q!5!!$!!U!$A!0!!]!&amp;A!""U&amp;E:(*F=X-!!!V!"A!(172E=G6T=Q!-!&amp;!!!Q!2!")!!A!3!&amp;!!"A!$!!9!#1!-!"!!%Q!'!&amp;!!!!!2!"9!!1F3:7&amp;E)&amp;2&amp;2&amp;-!!!U!&amp;A!""&amp;.M&lt;X1!!!!&amp;!!9!!!U!&amp;A!""7FO=(6U!!!2!"9!!1BS:8&amp;V;8*F:!!!!!Y!5!!%!"=!'!!:!"I!$Q!7!!%(1WBB&lt;GZF&lt;!!!$A"1!!1!(!!9!"E!'A!4!"9!!1N52524)%*J&lt;G&amp;S?1!!"!!B!!Q!1!!"`````Q!@!!]!&amp;A!""G^V&gt;("V&gt;!!!!!Y!5!!%!"Y!)!!B!"I!%Q!7!!%,&gt;D!O/3!I6%6%5SE!!!Y!5!!%!#-!(Q!B!"I!%!"1!!5!&amp;A!&lt;!"U!)A!E!"5!&amp;A!"$5VP&gt;7ZU)&amp;.%)%.B=G1!!!5!"1!!$A"1!!1!"!!H!"E!'A!2!"9!!1F$98*E)&amp;.M&lt;X1!!"%!&amp;A!"#'^Q&gt;'FP&lt;G&amp;M!!!!$A"1!!1!+1!H!"E!+A!6!"9!!1R%=GFW:3")97ZE&lt;'5!!!!&amp;!!=!!!Y!5!!%!#Q!,1!B!#I!&amp;1!7!!%-2(*J&gt;G5A4'6U&gt;'6S!!!!$E!S`````Q21982I!!!/!&amp;!!"!!P!$!!)1!K!"!!5!!&amp;!#9!+!!L!#Y!-1!8!"9!!1^6&lt;GVP&gt;7ZU)&amp;.%)%.B=G1!!!Y!5!!%!#Q!,1!:!"I!#A"1!!)!-Q!U!"]!&amp;A!"&amp;V6O=W6D&gt;8*F:#".&lt;X6O&gt;#"42#"$98*E!!!1!&amp;!!"1!W!#A!+Q!O!$%!$A"1!!1!*1!S!$5!.Q!-!&amp;!!!Q!5!"5!/!!"!$E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!&amp;"53$!!!!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!5&amp;2)-!!!!!1!!!!!!!!!!!!!!!!*5G6G&lt;H6N)'FO!'%!]!!-!!-!"!!*!!I!"!!%!!1!"!!,!!1!$!!.!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">10</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082917392</Property>
 		</Item>
 		<Item Name="Read Vendor Name (Module EEPROM).vi" Type="VI" URL="../subVIs/Read Vendor Name (Module EEPROM).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!F2!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$U!'!!F7:7ZE&lt;X)A351!&amp;%!Q`````QN7:7ZE&lt;X)A4G&amp;N:11Y1(!!&amp;!!!!!!72F"(13"*&lt;H2F=G:B9W5A2(FO97VJ9Q!6!)!!!!!!/A!:!"9!!2"897NF&gt;8!A&gt;W&amp;J&gt;#!I&lt;8-J!!!!&amp;U!(!""897NF&gt;8!A&gt;W&amp;J&gt;#!I&lt;8-J!!!0!"9!!1&gt;D&lt;WZU=G^M!!!-!&amp;!!!Q!!!!%!!A!0!"9!!1:.&lt;W2V&lt;'5!!!!.1!9!"EVP:(6M:1!!$!"1!!-!"!!&amp;!!)!$1!7!!%%5X2P=!!!!!J!)124&gt;'^Q!!!-!&amp;!!!Q!(!!A!!A!0!"9!!1&gt;&amp;?'6D&gt;82F!!!-1#%(28BF9X6U:1!-!&amp;!!!Q!+!!M!!A!2!"9!!1F%982B)&amp;*F971!!!^!"1!*2'&amp;U93"3:7&amp;E!"%!&amp;A!"#7FO:'FD982P=A!!$!"1!!-!$1!/!!]!$Q!7!!%(172E=G6T=Q!!$5!'!!&gt;":'2S:8.T!!Q!5!!$!"%!%A!#!")!5!!'!!-!"A!*!!Q!%!!4!!9!5!!!!"%!&amp;A!"#6*F971A6%6%5Q!!$1!7!!%%5WRP&gt;!!!!!5!"A!!$1!7!!%&amp;;7ZQ&gt;81!!"%!&amp;A!"#(*F=86J=G6E!!!!$A"1!!1!&amp;Q!9!"E!'A!0!"9!!1&gt;$;'&amp;O&lt;G6M!!!/!&amp;!!"!!=!"A!'1!;!"-!&amp;A!"#V2&amp;2&amp;-A1GFO98*Z!!!%!#%!$!"!!!(`````!"]!$Q!7!!%'&lt;X6U=(6U!!!!$A"1!!1!(A!A!#%!'A!4!"9!!1NW-#YZ)#B52524+1!!$A"1!!1!)Q!@!#%!'A!1!&amp;!!"1!7!"M!(1!C!#1!&amp;1!7!!%.47^V&lt;H1A5U1A1W&amp;S:!!!"1!&amp;!!!/!&amp;!!"!!%!#=!'1!;!"%!&amp;A!"#5.B=G1A5WRP&gt;!!!%1!7!!%)&lt;X"U;7^O97Q!!!!/!&amp;!!"!!J!#=!'1!K!"5!&amp;A!"$%2S;8:F)%BB&lt;G2M:1!!!!5!"Q!!$A"1!!1!,!!N!#%!+A!6!"9!!1R%=GFW:3"-:82U:8)!!!!/1$,`````"&amp;"B&gt;'A!!!Y!5!!%!#]!-!!B!#I!%!"1!!5!*A!I!#M!,A!R!"=!&amp;A!"$V6O&lt;7^V&lt;H1A5U1A1W&amp;S:!!!$A"1!!1!,!!N!"E!'A!+!&amp;!!!A!T!$1!(Q!7!!%867ZT:7.V=G6E)%VP&gt;7ZU)&amp;.%)%.B=G1!!"!!5!!&amp;!$9!+!!L!#Y!-1!/!&amp;!!"!!F!$)!.1!X!!Q!5!!$!"1!&amp;1!Y!!%!/1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!5&amp;2)-!!!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"16%AQ!!!!"!!!!!!!!!!!!!!!!!J3:7:O&gt;7UA&lt;X6U!!!%!!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!"$:!=!!5!!!!!":'5%&gt;")%FO&gt;'6S:G&amp;D:3"%?7ZB&lt;7FD!"5!A!!!!!![!"E!&amp;A!"%&amp;&gt;B;W6V=#"X97FU)#BN=SE!!!!81!=!%&amp;&gt;B;W6V=#"X97FU)#BN=SE!!!]!&amp;A!""W.P&lt;H2S&lt;WQ!!!Q!5!!$!!!!!1!#!!]!&amp;A!""EVP:(6M:1!!!!V!"A!'47^E&gt;7RF!!!-!&amp;!!!Q!%!!5!!A!.!"9!!124&gt;'^Q!!!!#E!B"&amp;.U&lt;X!!!!Q!5!!$!!=!#!!#!!]!&amp;A!""U6Y:7.V&gt;'5!!!R!)1&gt;&amp;?'6D&gt;82F!!Q!5!!$!!I!#Q!#!"%!&amp;A!"#52B&gt;'%A5G6B:!!!$U!&amp;!!F%982B)&amp;*F971!%1!7!!%*;7ZE;7.B&gt;'^S!!!-!&amp;!!!Q!.!!Y!$Q!0!"9!!1&gt;":'2S:8.T!!!.1!9!"U&amp;E:(*F=X-!$!"1!!-!%1!3!!)!%A"1!!9!!Q!'!!E!$!!1!"-!"A"1!!!!%1!7!!%*5G6B:#"52524!!!.!"9!!124&lt;'^U!!!!"1!'!!!.!"9!!16J&lt;H"V&gt;!!!%1!7!!%)=G6R&gt;7FS:71!!!!/!&amp;!!"!!8!"A!'1!;!!]!&amp;A!""U.I97ZO:7Q!!!Y!5!!%!"Q!'!!:!"I!%Q!7!!%,6%6%5S"#;7ZB=HE!!!1!)1!-!%!!!@````]!(Q!0!"9!!1:P&gt;82Q&gt;81!!!!/!&amp;!!"!!?!#!!)1!;!"-!&amp;A!"#X9Q,DEA+&amp;2&amp;2&amp;-J!!!/!&amp;!!"!!D!"]!)1!;!"!!5!!&amp;!"9!'Q!&gt;!#)!*!!6!"9!!1V.&lt;X6O&gt;#"42#"$98*E!!!&amp;!!5!!!Y!5!!%!!1!*Q!:!"I!%1!7!!%*1W&amp;S:#"4&lt;'^U!!!2!"9!!1BP=(2J&lt;WZB&lt;!!!!!Y!5!!%!#E!*Q!:!#I!&amp;1!7!!%-2(*J&gt;G5A3'&amp;O:'RF!!!!"1!(!!!/!&amp;!!"!!M!#U!)1!K!"5!&amp;A!"$%2S;8:F)%RF&gt;(2F=A!!!!Z!-P````]%5'&amp;U;!!!$A"1!!1!,Q!Q!#%!+A!1!&amp;!!"1!G!#A!+Q!O!$%!&amp;Q!7!!%067ZN&lt;X6O&gt;#"42#"$98*E!!!/!&amp;!!"!!M!#U!'1!;!!I!5!!#!$-!.!!@!"9!!2&gt;6&lt;H.F9X6S:71A47^V&lt;H1A5U1A1W&amp;S:!!!%!"1!!5!.A!I!#M!,A!R!!Y!5!!%!#5!-A!V!$=!$!"1!!-!&amp;!!6!$A!!1!Z!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"16%AQ!!!!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!&amp;"53$!!!!!%!!!!!!!!!!!!!!!!#6*F:GZV&lt;3"J&lt;A"B!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!=!#1-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#A!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
@@ -100,6 +307,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
+		</Item>
+		<Item Name="cRIO Vendor and Components Library.vi" Type="VI" URL="../subVIs/cRIO Vendor and Components Library.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!1/!!!!%A!01!9!#5VP:(6M:3"*2!!51$$`````#UVP:(6M:3"/97VF!#M!]1!!!!!!!!!"&amp;'.335]A47^E&gt;7RF)%.P:'5O9X2M!!Y!5!!#!!!!!1!=1%!!!@````]!!A^-;8.U)'^G)%VP:(6M:8-!%U!'!!R#97.L='RB&lt;G5A351!!GE!]1!!!!!!!!!"%W.335]A1G&amp;D;X"M97ZF=SZD&gt;'Q#45!7!$A,0&amp;6O:'6G;7ZF:$Y*9V**4SUZ-$-Q#7.335]N/4!T-1FD5EF0,4EQ-T-*9V**4SUZ-$-U#7.335]N/4!T.1FD5EF0,4EQ-T9*9V**4SUZ-$-Y#7.335]N/4!T/1FD5EF0,4EQ.D-*9V**4SUZ-$9U#7.335]N/4!W.1FD5EF0,4EQ.D9*9V**4SUZ-$9X#7.335]N/4!W/!FD5EF0,4EQ.T)*9V**4SUZ-$=T#7.335]N/4!X.!FD5EF0,4EQ.T5*9V**4SUZ-$=W#7.335]N/4!Y-1FD5EF0,4EQ/$)*9V**4SUZ-4!R#7.335]N/4%Q-AFD5EF0,4ER-$-*9V**4SUZ-4!U#7.335]N/4%R-1FD5EF0,4ER-4)*9V**4SUZ-4%T#7.335]N/4%R.!FD5EF0,4ER-49*9V**4SUZ-4%Y"UZ*)$ER.$9(4EEA/4%U.Q&gt;/33!Z-41Y"UZ*)$ER.$E(4EEA/4%V.!&gt;/33!Z-45V"UZ*)$ER.4=(4EEA/4%V/1JN?6**4SUR/4!Q#GVZ5EF0,4%Z.4!+=W*335]N/49Q-1JT9F**4SUZ.D!S#H.C5EF0,4EW-$5+=W*335]N/49Q.AJT9F**4SUZ.D%R#H.C5EF0,4EW-4)+=W*335]N/49S-QJT9F**4SUZ.D)W#H.C5EF0,4EW-T%+=W*335]N/49T-AJT9F**4SUZ.D-T#H.C5EF0,4EW-T9+=W*335]N/49U-1JT9F**4SUZ.D1S!!Z#97.L='RB&lt;G5A4G&amp;N:1!!#A"1!!)!"!!&amp;!#"!1!!"`````Q!'%ERJ=X1A&lt;W9A1G&amp;D;X"M97ZF=Q!!%U!'!!V$&lt;WZU=G^M&lt;'6S)%F%!"B!-0````]01W^O&gt;(*P&lt;'RF=C"/97VF!!I!5!!#!!A!#1!A1%!!!@````]!#B.-;8.U)'^G)%.P&lt;H2S&lt;WRM:8*T!!^!"A!*6G6O:'^S)%F%!"2!-0````],6G6O:'^S)%ZB&lt;75!#A"1!!)!$!!.!"R!1!!"`````Q!/$URJ=X1A&lt;W9A6G6O:'^S=Q!%!!!!6!$Q!!Q!!Q!(!!M!$Q!1!"!!%!!1!"!!%!!1!"!#!!"Y!!!*!!!!#1!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!2!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1077936128</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082929664</Property>
 		</Item>
 	</Item>
 	<Item Name="Detect Modules.vi" Type="VI" URL="../Detect Modules.vi">
