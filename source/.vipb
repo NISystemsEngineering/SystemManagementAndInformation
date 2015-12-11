@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2015-12-10 16:03:42" Creator="bmitchel" Comments="" ID="df431e1022c4a1bba613ffb9b668ab30">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2015-12-11 16:39:51" Creator="bmitchel" Comments="" ID="9237caedf80aa68fab910ec9623f432c">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
-    <Library_Version>2015.0.0.2</Library_Version>
+    <Library_Version>2015.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\export</Library_Output_Folder>
@@ -20,10 +20,10 @@
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
-      <Pre-Install_VI/>
-      <Post-Install_VI/>
-      <Pre-Uninstall_VI/>
-      <Post-Uninstall_VI/>
+      <Pre-Install_VI>VIs\Temporarily Grant File Permissions.vi</Pre-Install_VI>
+      <Post-Install_VI>VIs\Restore File Permissions.vi</Post-Install_VI>
+      <Pre-Uninstall_VI>VIs\Temporarily Grant File Permissions.vi</Pre-Uninstall_VI>
+      <Post-Uninstall_VI>VIs\Restore File Permissions.vi</Post-Uninstall_VI>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>.vipc</VI_Package_Configuration_File>
     <Description>
@@ -117,7 +117,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path/>
       </Project_Provider>
       <Additional_Destination>
-        <Name>SMI</Name>
+        <Name>C Series Module Detection</Name>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;OS Application Files&gt;\National Instruments\RT Images\User Components</Path>
@@ -154,6 +154,12 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>documentation/System Management and Information (SMI) README.txt</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -164,9 +170,6 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>documentation</Path>
-      </Exclusions>
       <Exclusions>
         <Path>source/RT Management.lvlib</Path>
       </Exclusions>
@@ -184,6 +187,69 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       </Exclusions>
       <Exclusions>
         <Path>export/ni_lib_smi-2015.0.0.1.vip</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/Build and export instructions.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/Dependencies.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/Distributed Devices.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/Distributed Devices_Controls.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/Last automated test report.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/Module Detection.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/Module Detection_Controls.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/Module Detection_SubVIs.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/RT Management.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation/RT Management_Controls.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>documentation</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/VIs/Convert version to numeric.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/VIs/Convert version to string.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/VIs/Edit INI keys.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/VIs/Get all LabVIEW INI keys.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/VIs/Remove INI Keys.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/VIs/Abstract method error.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/VIs/Set file permissions on directory files.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/VIs/Set file permissions.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>export/ni_lib_smi-2015.0.0.2.vip</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>export/ni_lib_smi-2015.0.0.3.vip</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\..\..\Perforce\Sales\projects\Components\Licenses\sample_code_license_terms_20141101.txt</License_Agreement_Filepath>
@@ -298,7 +364,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>.</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>06383CB740E8F9C8ADA1CB74F619B4A2</GUID>
+      <GUID>C435CC7B6148683D8A3BCEE22E4B6815</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -403,7 +469,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>..\Example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BAD9445CCAD04C984471C5A78947F002</GUID>
+      <GUID>F631EE94EFDE67E09D3056565F769C14</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -432,7 +498,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>1</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>classes\Controller\Send SysCfg Session.vi</Path>
@@ -446,7 +512,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>2</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>classes\Controller\Return SysCfg Session.vi</Path>
@@ -460,7 +526,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>classes\Controller\Send Hardware Reference.vi</Path>
@@ -494,7 +560,21 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>..\Example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ECDDBDF9EBBC98C0E08313FF3B66EE5D</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Network Devices.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>classes\SysCfg Device\Get Network Devices.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>EB104B6F5A1C3F4D843FA8121DC4F786</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -529,7 +609,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>Get System Info - Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>500DCAE80F2C9B6E87A3ACA32FE27FB1</GUID>
+      <GUID>1311E98740632DE1270289B43D278828</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -564,7 +644,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>Get Advanced System Info - Example.vi</Path>
         <VI_Title>Get Advanced Information</VI_Title>
       </Items_Data>
-      <GUID>C25AF0AB509D1B59379BC7E0C0C8EA70</GUID>
+      <GUID>EAB3719FC0DC479A413784660319ACED</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -599,7 +679,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>.</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>949851C583FA1A4CBED16241C116B849</GUID>
+      <GUID>F824B65510D0CC9245DB306FD507C332</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -662,7 +742,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>81AE7A978E8F5C43C7AFAD28448ED314</GUID>
+      <GUID>EED9EDABB45DAC29709679D68AAA4CC4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -781,7 +861,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\SysCfg Device</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD2A500A7E0B8129EE5F3A51E579420C</GUID>
+      <GUID>BBEC526EEFAE4DBDFEEECF863E9C0A0C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -816,7 +896,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>controls\INI key.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B97F84851B2DD5629F6ACC9172C4FFE7</GUID>
+      <GUID>8447EF0E74F3AB34CE31A877167BC8E5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -851,7 +931,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>tests\VIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>446AA4F3ECE307F69B15D526B40C7B64</GUID>
+      <GUID>D1121C688DCADF78115FC82B9D62DD55</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -886,7 +966,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\Chassis\Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E95BFF54B455226A8117F0AE5BFD7E6E</GUID>
+      <GUID>44923540390793776C87BF98F0BEA527</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -921,7 +1001,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\Controller\Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AFBF61D01DF5FC53AD37A0F2079F1D5</GUID>
+      <GUID>29DA715CCE7464B9B89A6B655F2F0F10</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -956,7 +1036,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\Device\Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6BB080BF8B9F0B3FECECE729624F523F</GUID>
+      <GUID>D5DFF3E8700E3B2980D9E5F9BFC39E98</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -991,7 +1071,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\File Transfer Behavior\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AD5E72DB4D31FDB2C20F309CB71EDE1</GUID>
+      <GUID>19A4144256EDAAC5389EF2EB00D6083C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1026,7 +1106,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\Module\Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7A24D9E73EC6B9F8A7F7FCF8713A0B8</GUID>
+      <GUID>AEC5E1F4C6976D21B49C6E1A9EAB95BE</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1061,7 +1141,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\RT Management\Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83D2E77F82D843CF183DEB709D625C38</GUID>
+      <GUID>27EE3EC83DA026B7CFA8BFADF71C6EC8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1096,7 +1176,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\SysCfg Device\Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1DC281E72C5D0FD08769C9A167B3596</GUID>
+      <GUID>D685CE3955DB72349328523C0A385F96</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1131,7 +1211,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\Chassis\Controls\ChassisInformation.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>86DABCDEA6EC13B551D19A2772C7B1FD</GUID>
+      <GUID>8B448F90BC64E9DD1E509E980C08DF48</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1152,20 +1232,6 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>source\classes\Controller\Controls</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ConfigureIPv4address.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>classes\Controller\Controls\ConfigureIPv4address.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -1192,34 +1258,6 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         </Position>
         <Icon>00000000</Icon>
         <Path>classes\Controller\Controls\DeviceInformation.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>DeviceNetworkSettings.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>classes\Controller\Controls\DeviceNetworkSettings.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>NetworkAdapterMode.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>classes\Controller\Controls\NetworkAdapterMode.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1253,20 +1291,6 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>NetworkDetection.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>classes\Controller\Controls\NetworkDetection.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>NetworkDevice.ctl</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1289,10 +1313,10 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>classes\Controller\Controls\NetworkDeviceInformation.ctl</Path>
+        <Path>classes\Device\Controls\NetworkDeviceInformation.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66DC0061C1374A76C66FAD96BA85F831</GUID>
+      <GUID>5F565208C54E63874C399E59CC33DCCB</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1327,7 +1351,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\Device\Controls\DeviceClassSelection.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A3CD516C9264BFE7A18F2E7B1B5C5C2</GUID>
+      <GUID>2CC5FE46CBEE5479EAD8D9B7F5CABB7D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1362,7 +1386,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\Module\Controls\ModuleInformation.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5622AC30D8F5042EBFD513FCF6A30230</GUID>
+      <GUID>FA3644D3DAF85404B3C1B2C15C993858</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1551,7 +1575,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\RT Management\Controls\Time zone.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>76B13AE25D1ACE826AA90350B90F25A4</GUID>
+      <GUID>BABA6F9343BBDDD8989D041F39F8F609</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1586,7 +1610,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\SysCfg Device\Controls\SysCfgDeviceInformation.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C20B674BB8262AA21EB863A80CE23770</GUID>
+      <GUID>BEB60C013E21DABDCEF0797D88088DC0</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1621,7 +1645,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>tests\VIs\Protocol.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB1FBAA972D524AF6069139473EF15BE</GUID>
+      <GUID>D1A77D5C90A61D82C4A0D2448B0721DE</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
