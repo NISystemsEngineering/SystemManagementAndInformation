@@ -132,13 +132,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
 	</Item>
 	<Item Name="Initialize SysCfg Device.vi" Type="VI" URL="../Initialize SysCfg Device.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!Z$&lt;WZU=G^M&lt;'6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"*!-0````]*68.F=C"/97VF!"*!-0````])5'&amp;T=X&gt;P=G1!!!I!5!!#!!=!#!!51%!!!@````]!#1&gt;/33""&gt;82I!"B!-0````]/6'&amp;S:W6U)%&amp;E:(*F=X-!!$:!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!V$&lt;WZU=G^M&lt;'6S)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!I!#Q!-!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!"!A!!!A!!!!!#!!!.!!!!$!!!!!!!!!!!!!!"!!U!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!Z$&lt;WZU=G^M&lt;'6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"*!-0````]*68.F=C"/97VF!"*!-0````])5'&amp;T=X&gt;P=G1!!#*!5!!#!!=!#":/33""&gt;82I)#B6&lt;G.P&lt;G:J:X6S:71J!!!91$$`````$F2B=G&gt;F&gt;#"":'2S:8.T!!!W1(!!(A!!(AF445EO&lt;(:M;7)31W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!!.1W^O&gt;(*P&lt;'RF=C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!*!!I!#Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!"!!!!)!!!!!!A!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">269230098</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268972562</Property>
 	</Item>
 	<Item Name="Close SysCfg Device.vi" Type="VI" URL="../Close SysCfg Device.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$J!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!W1(!!(A!!(AF445EO&lt;(:M;7)31W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!!.1W^O&gt;(*P&lt;'RF=C"J&lt;A"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!1!"A-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!!!!"!!=!!!!!</Property>

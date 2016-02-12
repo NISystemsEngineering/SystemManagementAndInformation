@@ -364,9 +364,9 @@
 		</Item>
 		<Item Name="SMI.lvlib" Type="Library" URL="../SMI.lvlib"/>
 		<Item Name="System Management and Information (SMI) README.txt" Type="Document" URL="../../documentation/System Management and Information (SMI) README.txt"/>
-		<Item Name="Temporarily Grant File Permissions.vi" Type="VI" URL="../VIs/Temporarily Grant File Permissions.vi"/>
 		<Item Name="Change Directory Permissions I16.vi" Type="VI" URL="../VIs/Change Directory Permissions I16.vi"/>
 		<Item Name="Restore File Permissions.vi" Type="VI" URL="../VIs/Restore File Permissions.vi"/>
+		<Item Name="Temporarily Grant File Permissions.vi" Type="VI" URL="../VIs/Temporarily Grant File Permissions.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
