@@ -362,8 +362,11 @@
 			<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
 			<Item Name="RT Management.lvlib" Type="Library" URL="../RT Management.lvlib"/>
 		</Item>
-		<Item Name="SMI.lvlib" Type="Library" URL="../SMI.lvlib"/>
-		<Item Name="System Management and Information (SMI) README.txt" Type="Document" URL="../../documentation/System Management and Information (SMI) README.txt"/>
+		<Item Name="SMI" Type="Folder">
+			<Item Name="SMI.lvlib" Type="Library" URL="../SMI.lvlib"/>
+			<Item Name="System Management and Information (SMI) README.txt" Type="Document" URL="../../documentation/System Management and Information (SMI) README.txt"/>
+			<Item Name="SMI Tests.lvlib" Type="Library" URL="../SMI Tests/SMI Tests.lvlib"/>
+		</Item>
 		<Item Name="Change Directory Permissions I16.vi" Type="VI" URL="../VIs/Change Directory Permissions I16.vi"/>
 		<Item Name="Restore File Permissions.vi" Type="VI" URL="../VIs/Restore File Permissions.vi"/>
 		<Item Name="Temporarily Grant File Permissions.vi" Type="VI" URL="../VIs/Temporarily Grant File Permissions.vi"/>
