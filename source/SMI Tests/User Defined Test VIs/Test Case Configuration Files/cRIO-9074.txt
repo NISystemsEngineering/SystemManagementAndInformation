@@ -1,0 +1,8 @@
+[cRIO-9074]
+
+IP Address =
+Username = 
+Password = 
+OS = VxWorks
+CPU = PowerPC
+Device Code = 729D

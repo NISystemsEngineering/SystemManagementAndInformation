@@ -33,8 +33,14 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Get SysCfg Device Information.lvtest" Type="TestItem" URL="../Get SysCfg Device Information.lvtest">
-		<Property Name="utf.test.bind" Type="Str">SMI.lvlib:SysCfg Device.lvclass:Get SysCfg Device Information.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">FC5C5AC9-7F01-3DED-1DD5-71397D9FC5CE</Property>
+	<Item Name="User Defined Test VIs" Type="Folder">
+		<Item Name="subVIs" Type="Folder">
+			<Item Name="Load Test Case Login Credentials.vi" Type="VI" URL="../User Defined Test VIs/subVIs/Load Test Case Login Credentials.vi"/>
+		</Item>
+		<Item Name="Get Controller Information (Test).vi" Type="VI" URL="../User Defined Test VIs/Get Controller Information (Test).vi"/>
+	</Item>
+	<Item Name="Get Controller Information.lvtest" Type="TestItem" URL="../Get Controller Information.lvtest">
+		<Property Name="utf.test.bind" Type="Str">SMI.lvlib:Controller.lvclass:Get Controller Information.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">CEDD2933-8BA9-DD50-8482-338DD001BB7D</Property>
 	</Item>
 </Library>
