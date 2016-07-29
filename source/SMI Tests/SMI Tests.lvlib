@@ -37,10 +37,10 @@
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Load Test Case Login Credentials.vi" Type="VI" URL="../User Defined Test VIs/subVIs/Load Test Case Login Credentials.vi"/>
 		</Item>
-		<Item Name="Get Controller Information (Test).vi" Type="VI" URL="../User Defined Test VIs/Get Controller Information (Test).vi"/>
+		<Item Name="get controller information.vi" Type="VI" URL="../User Defined Test VIs/get controller information.vi"/>
 	</Item>
-	<Item Name="Get Controller Information.lvtest" Type="{00000000-0000-0000-0000-000000000000}" URL="../Get Controller Information.lvtest">
-		<Property Name="utf.test.bind" Type="Str">SMI.lvlib:Controller.lvclass:Get Controller Information.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">CEDD2933-8BA9-DD50-8482-338DD001BB7D</Property>
+	<Item Name="get controller information.lvtest" Type="TestItem" URL="../get controller information.lvtest">
+		<Property Name="utf.test.bind" Type="Str">SMI Tests.lvlib:get controller information.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">33D102E3-D0FB-CD28-150F-F6D036FBEF03</Property>
 	</Item>
 </Library>
