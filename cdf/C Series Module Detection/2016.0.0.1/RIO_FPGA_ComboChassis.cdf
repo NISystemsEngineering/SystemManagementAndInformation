@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?CDF VERSION="1.0"?>
 <DEFINITION>
-  <SOFTPKG NAME="{DA270E79-61C8-4453-AB9C-6EA9C1E7419B}" VERSION="2015.0.0.1" TYPE="VISIBLE">
+  <SOFTPKG NAME="{DA270E79-61C8-4453-AB9C-6EA9C1E7419B}" VERSION="2016.0.0.1" TYPE="VISIBLE">
     <TITLE>C Series Module Detection</TITLE>
     <ABSTRACT>Contains files necessary to use the System Management and Information (SMI) Reference Library for detecting NI C Series modules without the use of Scan Engine.</ABSTRACT>
     <IMPLEMENTATION>
