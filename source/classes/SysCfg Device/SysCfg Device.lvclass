@@ -28,18 +28,6 @@
 	<Item Name="SysCfg Device.ctl" Type="Class Private Data" URL="SysCfg Device.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="controls" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="SysCfgDeviceInformation.ctl" Type="VI" URL="../controls/SysCfgDeviceInformation.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&gt;!!!!#1!I!$@`````!!57!)!!!!!!!1!%!!!!!1!!!!!!!!BO;8.Z=W.G:Q!!3%"Q!"50&lt;GFT?8.D:G&gt;4:8.T;7^O!!%!!!BO;8.Z=W.G:Q!7!)!!!!!!!1!%!!!!!1!!!!!!!!Z4?8.$:G=A5W6T=WFP&lt;A!!&amp;%!Q`````QN7:7ZE&lt;X)A4G&amp;N:1!71$$`````$&amp;"S&lt;W2V9X1A4G&amp;N:1!!%5!(!!J1=G^E&gt;7.U)%F%!!!71$$`````$6.F=GFB&lt;#"/&gt;7VC:8)!%E!Q`````QF6=W6S)%ZB&lt;75!%E!Q`````QB198.T&gt;W^S:!!!=!$R!!!!!!!!!!-*5UV*,GRW&lt;'FC&amp;6.Z=U.G:S"%:8:J9W5O&lt;(:D&lt;'&amp;T=RN4?8.$:G&gt;%:8:J9W6*&lt;G:P=GVB&gt;'FP&lt;CZD&gt;'Q!,%"1!!=!!1!#!!-!"!!&amp;!!9!"R*%:8:J9W5A37ZG&lt;X*N982J&lt;WY!!!%!#!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
-		</Item>
-	</Item>
 	<Item Name="accessor methods" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="sys config session" Type="Property Definition">
@@ -110,6 +98,18 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">9183232</Property>
 			</Item>
+		</Item>
+	</Item>
+	<Item Name="controls" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="SysCfgDeviceInformation.ctl" Type="VI" URL="../controls/SysCfgDeviceInformation.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&gt;!!!!#1!I!$@`````!!57!)!!!!!!!1!%!!!!!1!!!!!!!!BO;8.Z=W.G:Q!!3%"Q!"50&lt;GFT?8.D:G&gt;4:8.T;7^O!!%!!!BO;8.Z=W.G:Q!7!)!!!!!!!1!%!!!!!1!!!!!!!!Z4?8.$:G=A5W6T=WFP&lt;A!!&amp;%!Q`````QN7:7ZE&lt;X)A4G&amp;N:1!71$$`````$&amp;"S&lt;W2V9X1A4G&amp;N:1!!%5!(!!J1=G^E&gt;7.U)%F%!!!71$$`````$6.F=GFB&lt;#"/&gt;7VC:8)!%E!Q`````QF6=W6S)%ZB&lt;75!%E!Q`````QB198.T&gt;W^S:!!!=!$R!!!!!!!!!!-*5UV*,GRW&lt;'FC&amp;6.Z=U.G:S"%:8:J9W5O&lt;(:D&lt;'&amp;T=RN4?8.$:G&gt;%:8:J9W6*&lt;G:P=GVB&gt;'FP&lt;CZD&gt;'Q!,%"1!!=!!1!#!!-!"!!&amp;!!9!"R*%:8:J9W5A37ZG&lt;X*N982J&lt;WY!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
