@@ -9,8 +9,8 @@
 
 </Property>
 	<Item Name="Examples" Type="Folder">
-		<Item Name="Get System Info - Example.vi" Type="VI" URL="../Get System Info - Example.vi"/>
-		<Item Name="Get Advanced System Info - Example.vi" Type="VI" URL="../Get Advanced System Info - Example.vi"/>
+		<Item Name="get system information - example.vi" Type="VI" URL="../get system information - example.vi"/>
+		<Item Name="get advanced system information - example.vi" Type="VI" URL="../get advanced system information - example.vi"/>
 	</Item>
 	<Item Name="Device" Type="Folder">
 		<Item Name="Device.lvclass" Type="LVClass" URL="../classes/Device/Device.lvclass"/>

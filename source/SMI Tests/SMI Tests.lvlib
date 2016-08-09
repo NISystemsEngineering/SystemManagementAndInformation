@@ -33,14 +33,14 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="User Defined Test VIs" Type="Folder">
+	<Item Name="user defined test VIs" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="subVIs" Type="Folder">
-			<Item Name="Load Test Case Login Credentials.vi" Type="VI" URL="../User Defined Test VIs/subVIs/Load Test Case Login Credentials.vi"/>
+			<Item Name="load login credentials.vi" Type="VI" URL="../user defined test VIs/subVIs/load login credentials.vi"/>
 		</Item>
-		<Item Name="get controller information.vi" Type="VI" URL="../User Defined Test VIs/get controller information.vi"/>
-	</Item>
-	<Item Name="get controller information.lvtest" Type="TestItem" URL="../get controller information.lvtest">
-		<Property Name="utf.test.bind" Type="Str">SMI Tests.lvlib:get controller information.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">33D102E3-D0FB-CD28-150F-F6D036FBEF03</Property>
+		<Item Name="detect network devices.vi" Type="VI" URL="../user defined test VIs/detect network devices.vi"/>
+		<Item Name="detect controller.vi" Type="VI" URL="../user defined test VIs/detect controller.vi"/>
+		<Item Name="detect chassis.vi" Type="VI" URL="../user defined test VIs/detect chassis.vi"/>
+		<Item Name="detect modules.vi" Type="VI" URL="../user defined test VIs/detect modules.vi"/>
 	</Item>
 </Library>
