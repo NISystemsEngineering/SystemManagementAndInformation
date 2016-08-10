@@ -27,13 +27,13 @@
 	<Item Name="PXI Module.ctl" Type="Class Private Data" URL="PXI Module.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Detect Modules.vi" Type="VI" URL="../Detect Modules.vi">
+	<Item Name="detect modules.vi" Type="VI" URL="../detect modules.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'"!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!?#6..33ZM&gt;GRJ9B*17%EA47^E&gt;7RF,GRW9WRB=X-!!!Z17%EA47^E&gt;7RF)'^V&gt;!!!-%"Q!"Y!!"M*5UV*,GRW&lt;'FC$U.I98.T;8-O&lt;(:D&lt;'&amp;T=Q!,1WBB=X.J=S"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!$:!=!!?!!!?#6..33ZM&gt;GRJ9B*17%EA47^E&gt;7RF,GRW9WRB=X-!!!V17%EA47^E&gt;7RF)'FO!$"!=!!?!!!&lt;#6..33ZM&gt;GRJ9A^$;'&amp;T=WFT,GRW9WRB=X-!#E.I98.T;8-A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!A!!?!!!$1A!!!!!!!#.#A!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!*!!!!!1!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929664</Property>
 	</Item>
 </LVClass>
