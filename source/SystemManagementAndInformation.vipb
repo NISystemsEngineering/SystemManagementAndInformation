@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-08-12 11:50:28" Creator="bmitchel" Comments="" ID="7f9621597cd515c626a07c149efcac99">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-08-12 11:53:15" Creator="bmitchel" Comments="" ID="d3c741de46a0bc936f08c1f42aca8f20">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
     <Library_Version>2016.0.0.2</Library_Version>
@@ -147,7 +147,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       <Additional_Destination>
         <Name>User Components</Name>
         <LLB>false</LLB>
-        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
         <Path>&lt;OS Application Files&gt;\National Instruments\RT Images\User Components</Path>
       </Additional_Destination>
       <Additional_Destination>
@@ -272,6 +272,15 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       </Exclusions>
       <Exclusions>
         <Path>documentation/VIs.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/classes/SysCfg Device/subVIs</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/classes/PXI Module</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/classes/File Transfer Behavior</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\documentation\sample_code_license_May_1_2016.txt.txt</License_Agreement_Filepath>
