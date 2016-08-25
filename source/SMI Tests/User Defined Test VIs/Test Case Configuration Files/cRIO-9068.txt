@@ -1,8 +1,0 @@
-[cRIO-9068]
-
-IP Address = 10.1.128.116
-Username = admin	
-Password = se
-OS = Linux
-CPU = ARM
-Device Code = 76D6

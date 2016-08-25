@@ -1,7 +1,0 @@
-[cRIO-906x]
-IP Address = 10.1.129.22
-Username = admin	
-Password = se
-OS = Linux
-CPU = ARM
-Device Code =
