@@ -145,4 +145,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
 	</Item>
+	<Item Name="detect modules.vi" Type="VI" URL="../detect modules.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'4!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!D#6..33ZM&gt;GRJ9B&gt;$)&amp;.F=GFF=S".&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=Q!41S"4:8*J:8-A&lt;7^E&gt;7RF)'^V&gt;!!Q1(!!(A!!'QF445EO&lt;(:M;7)01WBB=X.J=SZM&gt;G.M98.T!!ND;'&amp;T=WFT)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!1%"Q!"Y!!#-*5UV*,GRW&lt;'FC&amp;U-A5W6S;76T)%VP:(6M:3ZM&gt;G.M98.T!"*$)&amp;.F=GFF=S"N&lt;W2V&lt;'5A;7Y!!$"!=!!?!!!&lt;#6..33ZM&gt;GRJ9A^$;'&amp;T=WFT,GRW9WRB=X-!#G.I98.T;8-A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!A!!?!!!$1A!!!!!!!#.#A!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!*!!!!!1!!!!!!%!#A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">269230080</Property>
+	</Item>
 </LVClass>
