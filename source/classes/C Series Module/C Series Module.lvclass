@@ -29,48 +29,48 @@
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="FPGABitfiles" Type="Folder">
-			<Item Name="9030_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9030_ReadEEPROM.lvbitx"/>
-			<Item Name="9031_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9031_ReadEEPROM.lvbitx"/>
-			<Item Name="9033_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9033_ReadEEPROM.lvbitx"/>
-			<Item Name="9034_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9034_ReadEEPROM.lvbitx"/>
-			<Item Name="9035_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9035_ReadEEPROM.lvbitx"/>
-			<Item Name="9036_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9036_ReadEEPROM.lvbitx"/>
-			<Item Name="9037_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9037_ReadEEPROM.lvbitx"/>
-			<Item Name="9038_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9038_ReadEEPROM.lvbitx"/>
-			<Item Name="9039_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9039_ReadEEPROM.lvbitx"/>
-			<Item Name="9063_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9063_ReadEEPROM.lvbitx"/>
-			<Item Name="9064_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9064_ReadEEPROM.lvbitx"/>
-			<Item Name="9065_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9065_ReadEEPROM.lvbitx"/>
-			<Item Name="9066_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9066_ReadEEPROM.lvbitx"/>
-			<Item Name="9067_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9067_ReadEEPROM.lvbitx"/>
-			<Item Name="9068_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9068_ReadEEPROM.lvbitx"/>
-			<Item Name="9072_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9072_ReadEEPROM.lvbitx"/>
-			<Item Name="9073_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9073_ReadEEPROM.lvbitx"/>
-			<Item Name="9074_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9074_ReadEEPROM.lvbitx"/>
-			<Item Name="9075_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9075_ReadEEPROM.lvbitx"/>
-			<Item Name="9076_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9076_ReadEEPROM.lvbitx"/>
-			<Item Name="9081_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9081_ReadEEPROM.lvbitx"/>
-			<Item Name="9082_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9082_ReadEEPROM.lvbitx"/>
-			<Item Name="9101_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9101_ReadEEPROM.lvbitx"/>
-			<Item Name="9102_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9102_ReadEEPROM.lvbitx"/>
-			<Item Name="9103_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9103_ReadEEPROM.lvbitx"/>
-			<Item Name="9104_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9104_ReadEEPROM.lvbitx"/>
-			<Item Name="9111_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9111_ReadEEPROM.lvbitx"/>
-			<Item Name="9112_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9112_ReadEEPROM.lvbitx"/>
-			<Item Name="9113_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9113_ReadEEPROM.lvbitx"/>
-			<Item Name="9114_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9114_ReadEEPROM.lvbitx"/>
-			<Item Name="9116_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9116_ReadEEPROM.lvbitx"/>
-			<Item Name="9118_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9118_ReadEEPROM.lvbitx"/>
-			<Item Name="9146_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9146_ReadEEPROM.lvbitx"/>
-			<Item Name="9147_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9147_ReadEEPROM.lvbitx"/>
-			<Item Name="9148_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9148_ReadEEPROM.lvbitx"/>
-			<Item Name="9149_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9149_ReadEEPROM.lvbitx"/>
-			<Item Name="9154_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9154_ReadEEPROM.lvbitx"/>
-			<Item Name="9155_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9155_ReadEEPROM.lvbitx"/>
-			<Item Name="9157_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9157_ReadEEPROM.lvbitx"/>
-			<Item Name="9159_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9159_ReadEEPROM.lvbitx"/>
-			<Item Name="9601_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9601_ReadEEPROM.lvbitx"/>
-			<Item Name="9602_ReadEEPROM.lvbitx" Type="Document" URL="../FPGABitfiles/9602_ReadEEPROM.lvbitx"/>
+			<Item Name="9030_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9030_ReadEEPROM.lvbitx"/>
+			<Item Name="9031_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9031_ReadEEPROM.lvbitx"/>
+			<Item Name="9033_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9033_ReadEEPROM.lvbitx"/>
+			<Item Name="9034_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9034_ReadEEPROM.lvbitx"/>
+			<Item Name="9035_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9035_ReadEEPROM.lvbitx"/>
+			<Item Name="9036_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9036_ReadEEPROM.lvbitx"/>
+			<Item Name="9037_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9037_ReadEEPROM.lvbitx"/>
+			<Item Name="9038_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9038_ReadEEPROM.lvbitx"/>
+			<Item Name="9039_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9039_ReadEEPROM.lvbitx"/>
+			<Item Name="9063_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9063_ReadEEPROM.lvbitx"/>
+			<Item Name="9064_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9064_ReadEEPROM.lvbitx"/>
+			<Item Name="9065_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9065_ReadEEPROM.lvbitx"/>
+			<Item Name="9066_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9066_ReadEEPROM.lvbitx"/>
+			<Item Name="9067_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9067_ReadEEPROM.lvbitx"/>
+			<Item Name="9068_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9068_ReadEEPROM.lvbitx"/>
+			<Item Name="9072_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9072_ReadEEPROM.lvbitx"/>
+			<Item Name="9073_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9073_ReadEEPROM.lvbitx"/>
+			<Item Name="9074_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9074_ReadEEPROM.lvbitx"/>
+			<Item Name="9075_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9075_ReadEEPROM.lvbitx"/>
+			<Item Name="9076_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9076_ReadEEPROM.lvbitx"/>
+			<Item Name="9081_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9081_ReadEEPROM.lvbitx"/>
+			<Item Name="9082_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9082_ReadEEPROM.lvbitx"/>
+			<Item Name="9101_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9101_ReadEEPROM.lvbitx"/>
+			<Item Name="9102_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9102_ReadEEPROM.lvbitx"/>
+			<Item Name="9103_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9103_ReadEEPROM.lvbitx"/>
+			<Item Name="9104_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9104_ReadEEPROM.lvbitx"/>
+			<Item Name="9111_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9111_ReadEEPROM.lvbitx"/>
+			<Item Name="9112_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9112_ReadEEPROM.lvbitx"/>
+			<Item Name="9113_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9113_ReadEEPROM.lvbitx"/>
+			<Item Name="9114_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9114_ReadEEPROM.lvbitx"/>
+			<Item Name="9116_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9116_ReadEEPROM.lvbitx"/>
+			<Item Name="9118_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9118_ReadEEPROM.lvbitx"/>
+			<Item Name="9146_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9146_ReadEEPROM.lvbitx"/>
+			<Item Name="9147_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9147_ReadEEPROM.lvbitx"/>
+			<Item Name="9148_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9148_ReadEEPROM.lvbitx"/>
+			<Item Name="9149_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9149_ReadEEPROM.lvbitx"/>
+			<Item Name="9154_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9154_ReadEEPROM.lvbitx"/>
+			<Item Name="9155_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9155_ReadEEPROM.lvbitx"/>
+			<Item Name="9157_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9157_ReadEEPROM.lvbitx"/>
+			<Item Name="9159_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9159_ReadEEPROM.lvbitx"/>
+			<Item Name="9601_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9601_ReadEEPROM.lvbitx"/>
+			<Item Name="9602_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/FPGABitfiles/9602_ReadEEPROM.lvbitx"/>
 		</Item>
 		<Item Name="module information (DAQmx).vi" Type="VI" URL="../module information (DAQmx).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'\!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;5!$!!^O&gt;7VC:8)A&lt;W9A=WRP&gt;(-!&amp;%!Q`````QNW:7ZE&lt;X)A&lt;G&amp;N:1!71$$`````$("S&lt;W2V9X1A&lt;G&amp;N:1!!%5!'!!JQ=G^E&gt;7.U)%F%!!!71$$`````$8.F=GFB&lt;#"O&gt;7VC:8)!9A$R!!!!!!!!!!-*5UV*,GRW&lt;'FC$EVP:(6M:3ZM&gt;G.M98.T&amp;GVP:(6M:3"J&lt;G:P=GVB&gt;'FP&lt;CZD&gt;'Q!+E"1!!1!"1!'!!=!#"&gt;D5EF0)%VP:(6M:3"*&lt;G:P=GVB&gt;'FP&lt;A!A1%!!!@````]!#2*N&lt;W2V&lt;'5A;7ZG&lt;X*N982J&lt;WY!!!1!!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!)%!Q`````R:*5#"B:'2S:8.T)#BM&lt;W.B&lt;'BP=X1J!!"5!0!!$!!$!!1!#A!,!!M!#Q!,!!M!$!!,!!M!$1-!!(A!!!U)!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!##!!!!!!"!!Y!!!!!</Property>
