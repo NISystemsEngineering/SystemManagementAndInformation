@@ -33,24 +33,24 @@
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">system hardware ref</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">system hardware ref</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="read system hardware ref.vi" Type="VI" URL="../read system hardware ref.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;*!=!!5%'ZJ=XFT98"J3'&amp;S:(&gt;B=G5!!!!)&lt;GFT?8.B='E!%Q#!!!!!!!%!"!!!!!%!!!!!!!!:5XFT&gt;'6N)%BB=G2X98*F)&amp;*F:G6S:7ZD:1!@1(!!)!!"!!5!%X.Z=X2F&lt;3"I98*E&gt;W&amp;S:3"S:79!/%"Q!"Y!!"Y*5UV*,GRW&lt;'FC%E.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!$G.P&lt;H2S&lt;WRM:8)A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!.E"Q!"Y!!"Y*5UV*,GRW&lt;'FC%E.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!$7.P&lt;H2S&lt;WRM:8)A;7Y!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!%!!E#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 			</Item>
 			<Item Name="write system hardware ref.vi" Type="VI" URL="../write system hardware ref.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!ZD&lt;WZU=G^M&lt;'6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!&amp;*!=!!5%'ZJ=XFT98"J3'&amp;S:(&gt;B=G5!!!!)&lt;GFT?8.B='E!%Q#!!!!!!!%!"!!!!!%!!!!!!!!:5XFT&gt;'6N)%BB=G2X98*F)&amp;*F:G6S:7ZD:1!@1(!!)!!"!!=!%X.Z=X2F&lt;3"I98*E&gt;W&amp;S:3"S:79!.E"Q!"Y!!"Y*5UV*,GRW&lt;'FC%E.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!$7.P&lt;H2S&lt;WRM:8)A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!)!!E#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 			</Item>
 		</Item>
 		<Item Name="device information" Type="Property Definition">
@@ -227,7 +227,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 		</Item>
 		<Item Name="get network adapter settings.vi" Type="VI" URL="../get network adapter settings.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-G!!!!&amp;1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;%!Q`````QJ*5#"B:'2S:8.T!!!51$$`````#UV"1S"B:'2S:8.T!"V!"Q!836!A972E=G6T=S"S:8&amp;V:8.U)'VP:'5!&amp;%!Q`````QNT&gt;7*O:81A&lt;7&amp;T;Q!11$$`````"W&gt;B&gt;'6X98E!&amp;%!Q`````QJ%4F-A=W6S&gt;G6S!!!41!=!$'&amp;E98"U:8)A&lt;7^E:1!!%U!(!!RB:'&amp;Q&gt;'6S)(2Z='5!!(9!]1!!!!!!!!!$#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-=&lt;G6U&gt;W^S;S"B:'&amp;Q&gt;'6S)(.F&gt;(2J&lt;G&gt;T,G.U&lt;!!U1&amp;!!#!!%!!5!"A!(!!A!#1!+!!M94G6U&gt;W^S;S"":'&amp;Q&gt;'6S)&amp;.F&gt;(2J&lt;G&gt;T!!!I1%!!!@````]!$"JT:7.P&lt;G2B=HEA&lt;G6U&gt;W^S;S"B:'&amp;Q&gt;'6S=Q!!&gt;!$R!!!!!!!!!!-*5UV*,GRW&lt;'FC%E.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=RRO:82X&lt;X*L)'&amp;E98"U:8)A=W6U&gt;'FO:X-O9X2M!$*!5!!)!!1!"1!'!!=!#!!*!!I!#R&gt;Q=GFN98*Z)'ZF&gt;(&gt;P=GMA972B=(2F=A!I!$@`````!!54!)!!!!!!!1!%!!!!!1!!!!!!!!BO;8.Z=W.G:Q!!4%"Q!"50&lt;GFT?8.D:G&gt;4:8.T;7^O!!%!$QBO;8.Z=W.G:Q!4!)!!!!!!!1!%!!!!!1!!!!!!!"*T?8.U:7UA=W6T=WFP&lt;C"P&gt;81!!!1!!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!3E"Q!"50&lt;GFT?8.D:G&gt;4:8.T;7^O!!%!$QBO;8.Z=W.G:Q!4!)!!!!!!!1!%!!!!!1!!!!!!!"&amp;T?8.U:7UA=W6T=WFP&lt;C"J&lt;A"5!0!!$!!$!!U!$A!1!"%!%1!2!"%!%A!2!"%!%Q-!!(A!!!E!!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!!!!"!"1!!!!!</Property>
