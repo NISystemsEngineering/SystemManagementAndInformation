@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-08-31 17:20:42" Creator="bmitchel" Comments="" ID="7dfe1592928cc17a09e1cd03f3d04ce9">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-08-31 17:24:46" Creator="bmitchel" Comments="" ID="f81ad8a062f0dddec0802b5c365b0d36">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
-    <Library_Version>2013.0.0.1</Library_Version>
+    <Library_Version>2013.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\export</Library_Output_Folder>
@@ -371,7 +371,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>.</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F48B59169BBD63AE8174F70D02DCBFC</GUID>
+      <GUID>640D2297A9132BBBA4068E7A284F0CFA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -476,7 +476,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7E659F84A45FC4105A951A93D051012</GUID>
+      <GUID>1882BBEB40C3C871DF8071B2EDAE07FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -525,7 +525,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>get advanced system information - example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F1869E21F517DBAC32D502AC0CED444</GUID>
+      <GUID>5ED4F5DE36997FA168B6CF61CD8BB50F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
