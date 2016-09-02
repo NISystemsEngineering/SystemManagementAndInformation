@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-09-02 11:54:27" Creator="bmitchel" Comments="" ID="902b9a77e250c6748917ec7b1617d851">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-09-02 14:15:50" Creator="bmitchel" Comments="" ID="cf2e5e53439c25395461d88beb2c64ce">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
     <Library_Version>2013.0.0.1</Library_Version>
@@ -139,22 +139,10 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path/>
       </Project_Provider>
       <Additional_Destination>
-        <Name>User Components</Name>
-        <LLB>false</LLB>
-        <Preserve_Hierarchy>false</Preserve_Hierarchy>
-        <Path>&lt;OS Application Files&gt;\National Instruments\RT Images\User Components</Path>
-      </Additional_Destination>
-      <Additional_Destination>
         <Name>FPGABitfiles</Name>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;vi.lib&gt;\NI\SMI</Path>
-      </Additional_Destination>
-      <Additional_Destination>
-        <Name>User Desktop</Name>
-        <LLB>false</LLB>
-        <Preserve_Hierarchy>false</Preserve_Hierarchy>
-        <Path>&lt;OS User Desktop&gt;</Path>
       </Additional_Destination>
     </Destinations>
     <Source_Files>
@@ -174,7 +162,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>source/C Series module detection/FPGABitfiles</Path>
         <Destination>0</Destination>
         <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>1</Additional_Destination_Index>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
@@ -257,12 +245,6 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       </Exclusions>
       <Exclusions>
         <Path>source/installer helper VIs/file permissions action.ctl</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>source/installer helper VIs/Post-Install Custom Action.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>source/installer helper VIs/Post-Uninstall Custom Action.vi</Path>
       </Exclusions>
       <Exclusions>
         <Path>source/installer helper VIs/restore permissions of RT images directory.vi</Path>
@@ -386,7 +368,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>BB474A9776C1B5AAA12D530291F4069B</GUID>
+      <GUID>18529995E26D85F22E9D2F9A70AD654B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -491,7 +473,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>7675A8C35C8C73214C9A8903D2A9DBCB</GUID>
+      <GUID>503871055FA71A5CB641D293E120E4FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -540,7 +522,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>F97AF7C6A9BB8B9E84E83FDC3ED681F2</GUID>
+      <GUID>65F57F1FFE494AEA5A89B973A941979C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
