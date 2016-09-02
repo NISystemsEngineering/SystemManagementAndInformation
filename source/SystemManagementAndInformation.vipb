@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-08-31 17:24:46" Creator="bmitchel" Comments="" ID="f81ad8a062f0dddec0802b5c365b0d36">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-09-02 11:54:27" Creator="bmitchel" Comments="" ID="902b9a77e250c6748917ec7b1617d851">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
-    <Library_Version>2013.0.0.2</Library_Version>
+    <Library_Version>2013.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\export</Library_Output_Folder>
@@ -21,27 +21,24 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>installer helper VIs\move directory to protected Windows location.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
-      <Post-Uninstall_VI/>
+      <Post-Uninstall_VI>installer helper VIs\delete directory from protected Windows location.vi</Post-Uninstall_VI>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>SystemManagementAndInformation.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Common system configuration parameter management and self-detection for NI Linux Real-Time targets.</One_Line_Description_Summary>
-      <Description>The System Management and Information (SMI) library is a software tool for the detection and management of NI hardware, and is provide by NI Systems Engineering. This code is provided As Is. It has not been tested or validated as a product, for use in a deployed application or system, or for use in hazardous environments. You assume all risks for use of the Code and use of the Code is subject to the Sample Code License Terms which can be found at: 
+      <Description>The System Management and Information (SMI) library is a software tool for the detection network devices and the management of NI hardware, and is provided by NI Systems Engineering. This code is provided As Is. It has not been tested or validated as a product, for use in a deployed application or system, or for use in hazardous environments. You assume all risks for use of the Code and use of the Code is subject to the Sample Code License Terms which can be found at: 
 
 http://ni.com/samplecodelicense. 
 
-SMI requires the installation of a software User Component on all NI LabVIEW Real-Time targets. The software component performs the function of installing missing SMI component dependencies, and for targets which support C Series modules, target-specific FPGA bitfiles for module detection in FPGA or Hybrid target modes.
+SMI requires the installation of the C Series Module Detection component on most NI RIO hardware. This software component must be installed through customer software installation using NI MAX, and performs the function of installing missing SMI component dependencies, and for targets which support C Series modules, target-specific FPGA bitfiles for module detection in FPGA or Hybrid target modes.
 
-The User Component, "C Series Module Detection," was created using the NI CDF Manager and Verifier Tool (NI internal use only):
-
-http://niweb.natinst.com/confluence/display/ss/CDF+Manager
-
-In order for this component to be available in the LabVIEW Real-Time Software Wizard (NI MAX &gt;&gt; Target &gt;&gt; Software [right-click]) "Custom software installation" features list, the folder containing this component must be located in the following directory:
+In order for this component to be available in the LabVIEW Real-Time Software Wizard (NI MAX &gt;&gt; Target &gt;&gt; Software [right-click]) "Custom software installation" features list, the folder containing this component is installed by VI Package Manager into the following directory:
 
 &lt;National Instruments&gt;\RT Images\User Components\
 
+Note: NI-RIO device driver support for NI hardware will be the determining factor in the support of some SMI features.
 
 Supported Integrated Controller and Chassis:
 cRIO-9030, cRIO-9031, cRIO-9033, cRIO-9034, cRIO-9035, cRIO-9036, cRIO-9038, cRIO-9039, cRIO-9063, cRIO-9064, cRIO-9065, cRIO-9066, cRIO-9067, cRIO-9068, cRIO-9081, and cRIO-9082.
@@ -60,23 +57,20 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/NISystemsEngineering/SystemManagementAndInformation</URL>
-      <Release_Notes>The System Management and Information (SMI) reference library is a software tool for the detection and management of NI hardware, and is provide by NI Systems Engineering. This code is provided As Is. It has not been tested or validated as a product, for use in a deployed application or system, or for use in hazardous environments. You assume all risks for use of the Code and use of the Code is subject to the Sample Code License Terms which can be found at: 
+      <Release_Notes>The System Management and Information (SMI) library is a software tool for the detection network devices and the management of NI Linux Real-Time hardware, and is provide by NI Systems Engineering. This code is provided As Is. It has not been tested or validated as a product, for use in a deployed application or system, or for use in hazardous environments. You assume all risks for use of the Code and use of the Code is subject to the Sample Code License Terms which can be found at: 
 
 http://ni.com/samplecodelicense. 
 
-SMI requires the installation of a software User Component on all NI LabVIEW Real-Time targets. The software component performs the function of installing missing SMI component dependencies, and for targets which support C Series modules, target-specific FPGA bitfiles for module detection in FPGA or Hybrid target modes.
+SMI requires the installation of the C Series Module Detection component for most NI RIO hardware. This software component must be installed through customer software installation using NI MAX, and performs the function of installing missing SMI component dependencies, and for targets which support C Series modules, target-specific FPGA bitfiles for module detection in FPGA or Hybrid target modes.
 
-The User Component, "C Series Module Detection," was created using the NI CDF Manager and Verifier Tool (NI internal use only):
-
-http://niweb.natinst.com/confluence/display/ss/CDF+Manager
-
-In order for this component to be available in the LabVIEW Real-Time Software Wizard (NI MAX &gt;&gt; Target &gt;&gt; Software [right-click]) "Custom software installation" features list, the folder containing this component must be located in the following directory:
+In order for this component to be available in the LabVIEW Real-Time Software Wizard (NI MAX &gt;&gt; Target &gt;&gt; Software [right-click]) "Custom software installation" features list, the folder containing this component is installed by VI Package Manager into the following directory:
 
 &lt;National Instruments&gt;\RT Images\User Components\
 
+Note: NI-RIO device driver support for NI hardware will be the determining factor in the support of some SMI features.
 
 Supported Integrated Controller and Chassis:
-cRIO-9030, cRIO-9031, cRIO-9033, cRIO-9034, cRIO-9035, cRIO-9036, cRIO-9038, cRIO-9039, cRIO-9063, cRIO-9064, cRIO-9065, cRIO-9066, cRIO-9067, cRIO-9068, cRIO-9081, and cRIO-9082.
+cRIO-9030, cRIO-9031, cRIO-9033, cRIO-9034, cRIO-9035, cRIO-9036, cRIO-9037, cRIO-9038, cRIO-9039, cRIO-9063, cRIO-9064, cRIO-9065, cRIO-9066, cRIO-9067, cRIO-9068, cRIO-9081, and cRIO-9082.
 
 Supported Embedded Controllers:
 cRIO-9024
@@ -156,6 +150,12 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;vi.lib&gt;\NI\SMI</Path>
       </Additional_Destination>
+      <Additional_Destination>
+        <Name>User Desktop</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path>&lt;OS User Desktop&gt;</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -168,12 +168,6 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>documentation/System Management and Information (SMI) README.txt</Path>
         <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>cdf/C Series Module Detection</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
@@ -238,15 +232,6 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>documentation/VIs.txt</Path>
       </Exclusions>
       <Exclusions>
-        <Path>source/classes/PXI Module</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>cdf</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>source/installer helper VIs</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
@@ -258,6 +243,36 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       <Exclusions>
         <Path>source/C Series module detection/C Series module detection.lvproj</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>export</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/installer helper VIs/change directory permissions.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/installer helper VIs/directory exists.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/installer helper VIs/enable write permission to RT images directory.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/installer helper VIs/file permissions action.ctl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/installer helper VIs/Post-Install Custom Action.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/installer helper VIs/Post-Uninstall Custom Action.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/installer helper VIs/restore permissions of RT images directory.vi</Path>
+      </Exclusions>
+      <Compile_Exclusions>
+        <Path>cdf/C Series Module Detection</Path>
+      </Compile_Exclusions>
+      <Compile_Exclusions>
+        <Path>cdf</Path>
+      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\documentation\sample_code_license_May_1_2016.txt.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -344,24 +359,10 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Detect Network Devices.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>classes\Device\Detect Network Devices.vi</Path>
-        <VI_Title>Network Detection</VI_Title>
-      </Items_Data>
-      <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>1</Sub_Palette_Index>
-        <NameSub_Menu_Name>System Information</NameSub_Menu_Name>
-        <Short_Name>System Information</Short_Name>
+        <NameSub_Menu_Name>system information</NameSub_Menu_Name>
+        <Short_Name>system information</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -371,11 +372,25 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>.</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>640D2297A9132BBBA4068E7A284F0CFA</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>detect network devices.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>classes\Device\detect network devices.vi</Path>
+        <VI_Title>detect network devices</VI_Title>
+      </Items_Data>
+      <GUID>BB474A9776C1B5AAA12D530291F4069B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
-      <Name>System Information</Name>
+      <Name>system information</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>2</Height_Row>
@@ -404,13 +419,13 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         </Position>
         <Icon>00000000</Icon>
         <Path>classes\SysCfg Device\close sys config device.vi</Path>
-        <VI_Title/>
+        <VI_Title>close device</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>2</Sub_Palette_Index>
-        <NameSub_Menu_Name>Advanced</NameSub_Menu_Name>
-        <Short_Name>Advanced</Short_Name>
+        <NameSub_Menu_Name>examples</NameSub_Menu_Name>
+        <Short_Name>examples</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
@@ -432,7 +447,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         </Position>
         <Icon>00000000</Icon>
         <Path>classes\SysCfg Device\get network devices.vi</Path>
-        <VI_Title/>
+        <VI_Title>get network devices</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -446,7 +461,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         </Position>
         <Icon>00000000</Icon>
         <Path>classes\Controller\get controller information.vi</Path>
-        <VI_Title/>
+        <VI_Title>get controller information</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -460,7 +475,7 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         </Position>
         <Icon>00000000</Icon>
         <Path>classes\Chassis\get chassis information.vi</Path>
-        <VI_Title/>
+        <VI_Title>get chassis information</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -474,13 +489,13 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         </Position>
         <Icon>00000000</Icon>
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
-        <VI_Title/>
+        <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>1882BBEB40C3C871DF8071B2EDAE07FA</GUID>
+      <GUID>7675A8C35C8C73214C9A8903D2A9DBCB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
-      <Name>Advanced</Name>
+      <Name>examples</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>1</Height_Row>
@@ -502,30 +517,30 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>get system information - example.vi</NameSub_Menu_Name>
         <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
+        <is_Merge_VI>true</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>get system information - example.vi</Path>
-        <VI_Title/>
+        <VI_Title>system information</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>get advanced system information - example.vi</NameSub_Menu_Name>
         <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
+        <is_Merge_VI>true</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>get advanced system information - example.vi</Path>
-        <VI_Title/>
+        <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>5ED4F5DE36997FA168B6CF61CD8BB50F</GUID>
+      <GUID>F97AF7C6A9BB8B9E84E83FDC3ED681F2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

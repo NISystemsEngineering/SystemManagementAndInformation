@@ -25,14 +25,14 @@
 		<Item Name="SMI" Type="Folder">
 			<Item Name="installer helper VIs" Type="Folder">
 				<Item Name="controls" Type="Folder">
-					<Item Name="file permissions action.ctl" Type="VI" URL="../installer helper VIs/file permissions action.ctl"/>
+					<Item Name="directory type.ctl" Type="VI" URL="../installer helper VIs/directory type.ctl"/>
 				</Item>
-				<Item Name="subVIs" Type="Folder">
-					<Item Name="change directory permissions.vi" Type="VI" URL="../installer helper VIs/change directory permissions.vi"/>
-					<Item Name="directory exists.vi" Type="VI" URL="../installer helper VIs/directory exists.vi"/>
-				</Item>
-				<Item Name="enable write permission to RT images directory.vi" Type="VI" URL="../installer helper VIs/enable write permission to RT images directory.vi"/>
-				<Item Name="restore permissions of RT images directory.vi" Type="VI" URL="../installer helper VIs/restore permissions of RT images directory.vi"/>
+				<Item Name="delete directory from protected Windows location.vi" Type="VI" URL="../installer helper VIs/delete directory from protected Windows location.vi"/>
+				<Item Name="move directory to protected Windows location.vi" Type="VI" URL="../installer helper VIs/move directory to protected Windows location.vi"/>
+			</Item>
+			<Item Name="examples" Type="Folder">
+				<Item Name="get system information - example.vi" Type="VI" URL="../get system information - example.vi"/>
+				<Item Name="get advanced system information - example.vi" Type="VI" URL="../get advanced system information - example.vi"/>
 			</Item>
 			<Item Name="SMI.lvlib" Type="Library" URL="../SMI.lvlib"/>
 			<Item Name="System Management and Information (SMI) README.txt" Type="Document" URL="../../documentation/System Management and Information (SMI) README.txt"/>
@@ -55,6 +55,9 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -67,7 +70,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
