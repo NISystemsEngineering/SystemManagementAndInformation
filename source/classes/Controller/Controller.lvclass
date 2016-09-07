@@ -57,15 +57,14 @@
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">device information</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">device information</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="read device information.vi" Type="VI" URL="../read device information.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*;!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!-0````])=G6T&lt;X6S9W5!!":!-0````]-:'6W;7.F)'.M98.T!!!91&amp;1!"B&amp;T?8.U:7UA=X2B=H1A&gt;'FN:1!51&amp;1!"ARD&gt;8*S:7ZU)(2J&lt;75!!"*!-0````]*&gt;'FN:3"[&lt;WZF!"J!-0````]2:GFS&lt;8&gt;B=G5A=G6W;8.J&lt;WY!&amp;%!Q`````QNJ&lt;7&amp;H:3"U;82M:1!71$$`````$7FN97&gt;F)(:F=H.J&lt;WY!&amp;E!Q`````QVT?8.U:7UA=X2B&gt;(6T!'Q!]1!!!!!!!!!$#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-7:'6W;7.F)'FO:G^S&lt;7&amp;U;7^O,G.U&lt;!!Q1&amp;!!#1!&amp;!!9!"Q!)!!E!#A!,!!Q!$2*E:8:J9W5A;7ZG&lt;X*N982J&lt;WY!!$B!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!ZD&lt;WZU=G^M&lt;'6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!$:!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!VD&lt;WZU=G^M&lt;'6S)'FO!'%!]!!-!!-!"!!/!!]!"!!%!!1!"!!1!!1!"!!2!A!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!")!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 			</Item>
 			<Item Name="write device information.vi" Type="VI" URL="../write device information.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*;!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!ZD&lt;WZU=G^M&lt;'6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"*!-0````])=G6T&lt;X6S9W5!!":!-0````]-:'6W;7.F)'.M98.T!!!91&amp;1!"B&amp;T?8.U:7UA=X2B=H1A&gt;'FN:1!51&amp;1!"ARD&gt;8*S:7ZU)(2J&lt;75!!"*!-0````]*&gt;'FN:3"[&lt;WZF!"J!-0````]2:GFS&lt;8&gt;B=G5A=G6W;8.J&lt;WY!&amp;%!Q`````QNJ&lt;7&amp;H:3"U;82M:1!71$$`````$7FN97&gt;F)(:F=H.J&lt;WY!&amp;E!Q`````QVT?8.U:7UA=X2B&gt;(6T!'Q!]1!!!!!!!!!$#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-7:'6W;7.F)'FO:G^S&lt;7&amp;U;7^O,G.U&lt;!!Q1&amp;!!#1!(!!A!#1!+!!M!$!!.!!Y!$R*E:8:J9W5A;7ZG&lt;X*N982J&lt;WY!!$:!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!VD&lt;WZU=G^M&lt;'6S)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!%!!2!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!")!!!!!</Property>
@@ -75,21 +74,21 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
 		<Item Name="primary network adapter" Type="Property Definition">
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">primary network adapter</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">primary network adapter</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="read primary network adapter.vi" Type="VI" URL="../read primary network adapter.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*(!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!-0````]+36!A972E=G6T=Q!!&amp;%!Q`````QN.15-A972E=G6T=Q!&gt;1!=!&amp;UF1)'&amp;E:(*F=X-A=G6R&gt;76T&gt;#"N&lt;W2F!"2!-0````],=X6C&lt;G6U)'VB=WM!%%!Q`````Q&gt;H982F&gt;W&amp;Z!"2!-0````]+2%Z4)(.F=H:F=A!!%U!(!!RB:'&amp;Q&gt;'6S)'VP:'5!!".!"Q!-972B=(2F=C"U?8"F!!"W!0%!!!!!!!!!!QF445EO&lt;(:M;7)31W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T('ZF&gt;(&gt;P=GMA972B=(2F=C"T:82U;7ZH=SZD&gt;'Q!.%"1!!A!"1!'!!=!#!!*!!I!#Q!-''ZF&gt;(&gt;P=GMA972B=(2F=C"T:82U;7ZH=Q!!/%"Q!"Y!!"Y*5UV*,GRW&lt;'FC%E.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!$G.P&lt;H2S&lt;WRM:8)A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!.E"Q!"Y!!"Y*5UV*,GRW&lt;'FC%E.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!$7.P&lt;H2S&lt;WRM:8)A;7Y!91$Q!!Q!!Q!%!!U!$A!%!!1!"!!%!!]!"!!%!"!#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!%1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 			</Item>
 			<Item Name="write primary network adapter.vi" Type="VI" URL="../write primary network adapter.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*(!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!ZD&lt;WZU=G^M&lt;'6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"2!-0````]+36!A972E=G6T=Q!!&amp;%!Q`````QN.15-A972E=G6T=Q!&gt;1!=!&amp;UF1)'&amp;E:(*F=X-A=G6R&gt;76T&gt;#"N&lt;W2F!"2!-0````],=X6C&lt;G6U)'VB=WM!%%!Q`````Q&gt;H982F&gt;W&amp;Z!"2!-0````]+2%Z4)(.F=H:F=A!!%U!(!!RB:'&amp;Q&gt;'6S)'VP:'5!!".!"Q!-972B=(2F=C"U?8"F!!"W!0%!!!!!!!!!!QF445EO&lt;(:M;7)31W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T('ZF&gt;(&gt;P=GMA972B=(2F=C"T:82U;7ZH=SZD&gt;'Q!.%"1!!A!"Q!)!!E!#A!,!!Q!$1!/''ZF&gt;(&gt;P=GMA972B=(2F=C"T:82U;7ZH=Q!!.E"Q!"Y!!"Y*5UV*,GRW&lt;'FC%E.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!$7.P&lt;H2S&lt;WRM:8)A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!0!"!#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!%1!!!!!</Property>
@@ -99,21 +98,21 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1342971904</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
 		<Item Name="secondary network adapters" Type="Property Definition">
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">secondary network adapters</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">secondary network adapters</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="read secondary network adapters.vi" Type="VI" URL="../read secondary network adapters.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*P!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!-0````]+36!A972E=G6T=Q!!&amp;%!Q`````QN.15-A972E=G6T=Q!&gt;1!=!&amp;UF1)'&amp;E:(*F=X-A=G6R&gt;76T&gt;#"N&lt;W2F!"2!-0````],=X6C&lt;G6U)'VB=WM!%%!Q`````Q&gt;H982F&gt;W&amp;Z!"2!-0````]+2%Z4)(.F=H:F=A!!%U!(!!RB:'&amp;Q&gt;'6S)'VP:'5!!".!"Q!-972B=(2F=C"U?8"F!!"W!0%!!!!!!!!!!QF445EO&lt;(:M;7)31W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T('ZF&gt;(&gt;P=GMA972B=(2F=C"T:82U;7ZH=SZD&gt;'Q!.%"1!!A!"1!'!!=!#!!*!!I!#Q!-'%ZF&gt;(&gt;P=GMA172B=(2F=C"4:82U;7ZH=Q!!+%"!!!(`````!!U;=W6D&lt;WZE98*Z)'ZF&gt;(&gt;P=GMA972B=(2F=H-!!$B!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!ZD&lt;WZU=G^M&lt;'6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!$:!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!VD&lt;WZU=G^M&lt;'6S)'FO!'%!]!!-!!-!"!!/!!]!"!!%!!1!"!!1!!1!"!!2!A!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!")!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342709760</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 			</Item>
 			<Item Name="write secondary network adapters.vi" Type="VI" URL="../write secondary network adapters.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*P!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!ZD&lt;WZU=G^M&lt;'6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"2!-0````]+36!A972E=G6T=Q!!&amp;%!Q`````QN.15-A972E=G6T=Q!&gt;1!=!&amp;UF1)'&amp;E:(*F=X-A=G6R&gt;76T&gt;#"N&lt;W2F!"2!-0````],=X6C&lt;G6U)'VB=WM!%%!Q`````Q&gt;H982F&gt;W&amp;Z!"2!-0````]+2%Z4)(.F=H:F=A!!%U!(!!RB:'&amp;Q&gt;'6S)'VP:'5!!".!"Q!-972B=(2F=C"U?8"F!!"W!0%!!!!!!!!!!QF445EO&lt;(:M;7)31W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T('ZF&gt;(&gt;P=GMA972B=(2F=C"T:82U;7ZH=SZD&gt;'Q!.%"1!!A!"Q!)!!E!#A!,!!Q!$1!/'%ZF&gt;(&gt;P=GMA172B=(2F=C"4:82U;7ZH=Q!!+%"!!!(`````!!];=W6D&lt;WZE98*Z)'ZF&gt;(&gt;P=GMA972B=(2F=H-!!$:!=!!?!!!?#6..33ZM&gt;GRJ9B*$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!!VD&lt;WZU=G^M&lt;'6S)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!%!!2!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!")!!!!!</Property>
@@ -123,6 +122,7 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1342976000</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
 		<Item Name="local chassis" Type="Property Definition">
