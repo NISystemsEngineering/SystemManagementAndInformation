@@ -36,27 +36,30 @@
 	<Item Name="user defined test VIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="subVIs" Type="Folder">
-			<Item Name="load login credentials.vi" Type="VI" URL="../User Defined Test VIs/subVIs/load login credentials.vi"/>
+			<Item Name="load login credentials.vi" Type="VI" URL="../user defined test VIs/subVIs/load login credentials.vi"/>
 		</Item>
-		<Item Name="detect network devices.vi" Type="VI" URL="../User Defined Test VIs/detect network devices.vi"/>
-		<Item Name="detect controller.vi" Type="VI" URL="../User Defined Test VIs/detect controller.vi"/>
-		<Item Name="detect chassis.vi" Type="VI" URL="../User Defined Test VIs/detect chassis.vi"/>
-		<Item Name="detect modules.vi" Type="VI" URL="../User Defined Test VIs/detect modules.vi"/>
+		<Item Name="login files" Type="Folder">
+			<Item Name="cRIO-9068.ini" Type="Document" URL="../User Defined Test VIs/subVIs/cRIO-9068.ini"/>
+		</Item>
+		<Item Name="detect network devices.vi" Type="VI" URL="../user defined test VIs/detect network devices.vi"/>
+		<Item Name="detect controller.vi" Type="VI" URL="../user defined test VIs/detect controller.vi"/>
+		<Item Name="detect chassis.vi" Type="VI" URL="../user defined test VIs/detect chassis.vi"/>
+		<Item Name="detect modules.vi" Type="VI" URL="../user defined test VIs/detect modules.vi"/>
 	</Item>
 	<Item Name="detect chassis.lvtest" Type="TestItem" URL="../detect chassis.lvtest">
 		<Property Name="utf.test.bind" Type="Str">tests.lvlib:detect chassis.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">2B874F99-CC4F-5D99-10E3-8A3C0A97E2E1</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">9D4B30C1-74D5-5EAE-8762-02AA3F55FF3F</Property>
 	</Item>
 	<Item Name="detect controller.lvtest" Type="TestItem" URL="../detect controller.lvtest">
 		<Property Name="utf.test.bind" Type="Str">tests.lvlib:detect controller.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">32FA987A-E805-DB07-083D-F8EA4B261A39</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">CEAADA15-53BA-C97E-707C-7737E5243456</Property>
 	</Item>
 	<Item Name="detect modules.lvtest" Type="TestItem" URL="../detect modules.lvtest">
 		<Property Name="utf.test.bind" Type="Str">tests.lvlib:detect modules.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">F9BF8003-4410-E07C-6A74-1EA227B28612</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">9E151A36-83AD-D283-9898-750D85435DB3</Property>
 	</Item>
 	<Item Name="detect network devices.lvtest" Type="TestItem" URL="../detect network devices.lvtest">
 		<Property Name="utf.test.bind" Type="Str">tests.lvlib:detect network devices.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">288606B5-7FF3-1A76-788F-72DD84BEA988</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">05B53986-F6BD-166D-5619-AB1150FF726D</Property>
 	</Item>
 </Library>
