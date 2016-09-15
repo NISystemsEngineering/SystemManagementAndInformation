@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-09-15 10:37:22" Creator="bmitchel" Comments="" ID="909f0a184e1a921e33951fcd4c4349bd">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-09-15 15:17:04" Creator="bmitchel" Comments="" ID="51d57767bdcec2327cbae5282cfa202a">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
     <Library_Version>2013.0.0.2</Library_Version>
@@ -180,6 +180,9 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       <Compile_Exclusions>
         <Path>cdf</Path>
       </Compile_Exclusions>
+      <Compile_Exclusions>
+        <Path>source/C Series module detection</Path>
+      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -294,7 +297,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>E3BFE132B11DAC49196AAE880D083606</GUID>
+      <GUID>053975E97B430AFE9E0354AB52AE76A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -399,7 +402,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>A384FED636739C808C0D9ED13A1118D6</GUID>
+      <GUID>DD6847C2CE124D385427B6605E4ED34A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -448,7 +451,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>B972DEABEB9CFE8D9840DB59930AD0DB</GUID>
+      <GUID>2B54B20A02CE9335F2C3AD3019D1C9FA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
