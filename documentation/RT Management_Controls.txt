@@ -1,8 +1,0 @@
-ChassisInformation.ctl
-ControllerInformation.ctl
-CPULoad.ctl
-cRIO Backplanes.ctl
-DeviceClass.ctl
-FindSystemsConfiguration.ctl
-SystemResources.ctl
-SystemSettings.ctl

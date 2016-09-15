@@ -1,2 +1,0 @@
-cRIO Module Info.ctl
-ModuleInformation.ctl

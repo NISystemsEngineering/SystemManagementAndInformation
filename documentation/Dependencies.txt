@@ -1,8 +1,0 @@
-This library has the following VIPM dependencies:
-jki_labs_tool_vi_tester
-
-This library has the following LabVIEW dependencies:
-System Configuration API
-WebDAV client
-FTP client
-Note: These are installed by default in LabVIEW. They are only listed here as the major dependencies of this library.

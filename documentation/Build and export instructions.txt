@@ -1,9 +1,0 @@
-There is a new issue with the VIPM that prevents it from using a network path in the "Build Output Directory". It isn't clear if there's something wrong with the .vipb file or this was broken in an update to the VIPM.
-
-For now, the "Build Output Directory" is set to a "builds" folder directly adjacent to the "documentation" and "source" folders. Although a full path is listed in the .vipb file, this path is relative, so it remains correct between development and trunk branches.
-
-
-After a successful build, please copy the .vip package file to the following location:
-\\nirvana\Engineering_Services\Integration\exports\common\RT Management
-
-If in the future, VIPM or this .vipb file is able to build to a network location, please update the "Build Output Directory" to be the above \\nirvana path.
