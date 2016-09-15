@@ -1,17 +1,23 @@
-The System Management and Information (SMI) reference library is a software tool for the detection and management of NI hardware, and is provide by NI Systems Engineering. This code is provided As Is. It has not been tested or validated as a product, for use in a deployed application or system, or for use in hazardous environments. You assume all risks for use of the Code and use of the Code is subject to the Sample Code License Terms which can be found at: 
+The System Management and Information (SMI) library provides functions for the detection of network devices and the management of NI RIO hardware. Device detection and system configuration management is implemented by encapsulating the System Configuration (SysConfig) API, and supplemented with RIO target-specific module detection code. For example, SMI network detection encapsulates the SysConfig Find Hardware.vi to retrieve information about detected devices. C series modules in RIO chassis are detected by deploying a target specific FPGA bitfile to query module EEPROM memory for identification information.
 
-http://ni.com/samplecodelicense. 
+SMI is an open source collaboration and is subject to the Apache License Terms, which can be found at: 
 
-SMI requires the installation of a software User Component on all NI LabVIEW Real-Time targets. The software component performs the function of installing missing SMI component dependencies, and for targets which support C Series modules, target-specific FPGA bitfiles for module detection in FPGA or Hybrid target modes.
+	C:\Program Files (x86)\National Instruments\LabVIEW 201x\vi.lib\NI\SMI\LICENSE.txt 
 
-The User Component, "C Series Module Detection," was created using the NI CDF Manager and Verifier Tool (NI internal use only):
+C  Series Module Detection
 
-http://niweb.natinst.com/confluence/display/ss/CDF+Manager
+In order to detect C Series modules in a RIO target, such as CompactRIO, the SMI library requires that the C Series Module Detection component is installed on the RIO real-time target. This component may be installed through custom software installation in NI MAX, or through programmatic use of SysConfig (Functions>>Measurement>>System Configuration>>Software Management>>Install.vi). Installing the C Series Module Detection component will install missing SMI component dependencies (NI-RIO, System Configuration, etc.), as well as target specific FPGA bitfiles on the RIO target..
 
-In order for this component to be available in the LabVIEW Real-Time Software Wizard (NI MAX >> Target >> Software [right-click]) "Custom software installation" features list, the folder containing this component must be located in the following directory:
+In order for the C Series Module Detection component to appear in the LabVIEW Real-Time Software Wizard (NI MAX >> Target >> Software [right-click] >> Add/Remove Software) "Custom software installation" features list, the SMI installation will copy a folder containing the component to the User Components directory: C:\Program Files (x86)\National Instruments\RT Images\User Components
 
-<National Instruments>\RT Images\User Components\
+Note: The User Components directory is a read-only directory, and some versions of the Windows OS will prevent VI Package Manager from copying files to this location during installation. If a user dialog message is displayed during installation of the SMI package stating that the component could not be copied to the intended system directory, the following (manual) steps will need to be taken to complete installation of SMI:
 
+   1. Navigate to the temporary CDF component installation location (<LabVIEW>\vi.lib\NI\SMI\cdf\C Series Module     Detection).
+   2. Copy the C Series Module Detection folder(Ctrl-C).
+   3. Navigate to the User Components directory (C:\Program Files (x86)\National Instruments\RT Images\User Components)
+   4. Paste the C Series Module Detection folder inside of the User Components directory.
+
+The NI-RIO device driver version will determine which NI hardware is supported for certain SMI features.
 
 Supported Integrated Controller and Chassis:
 cRIO-9030, cRIO-9031, cRIO-9033, cRIO-9034, cRIO-9035, cRIO-9036, cRIO-9038, cRIO-9039, cRIO-9063, cRIO-9064, cRIO-9065, cRIO-9066, cRIO-9067, cRIO-9068, cRIO-9081, and cRIO-9082.
@@ -26,4 +32,4 @@ Expansion I/O:
 9146, 9147, 9149, 9154, 9155, 9157, and 9159.
 
 Supported Single-Board RIO controllers:
-sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-9631, sbRIO-9632, sbRIO-9637, sbRIO-9641, and sbRIO-9642.
+sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-9631, sbRIO-9632, sbRIO-9637, sbRIO-9641, and sbRIO-9642.IO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-9631, sbRIO-9632, sbRIO-9637, sbRIO-9641, and sbRIO-9642.
