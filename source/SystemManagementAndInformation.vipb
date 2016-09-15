@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-09-14 14:53:39" Creator="bmitchel" Comments="" ID="bd6d1f4ca8765ba08e1df510519fab79">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-09-15 10:37:22" Creator="bmitchel" Comments="" ID="909f0a184e1a921e33951fcd4c4349bd">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
     <Library_Version>2013.0.0.2</Library_Version>
@@ -157,48 +157,6 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>source/tests</Path>
       </Exclusions>
       <Exclusions>
-        <Path>documentation/Build and export instructions.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/Dependencies.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/Distributed Devices.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/Distributed Devices_Controls.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/Last automated test report.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/Module Detection.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/Module Detection_Controls.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/Module Detection_SubVIs.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/RT Management.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/RT Management_Controls.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/System Management and Information (SMI) Reference Library (Internal).docx</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/System Management and Information (SMI) Reference Library.docx</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/System Management and Information (SMI) Reference Library.pdf</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/VIs.txt</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
@@ -208,28 +166,13 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
         <Path>source/C Series module detection/C Series module detection.lvproj</Path>
       </Exclusions>
       <Exclusions>
-        <Path>source/installer helper VIs/change directory permissions.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>source/installer helper VIs/directory exists.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>source/installer helper VIs/enable write permission to RT images directory.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>source/installer helper VIs/file permissions action.ctl</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>source/installer helper VIs/restore permissions of RT images directory.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>documentation/sample_code_license_May_1_2016.txt.txt</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Autobuild.csv</Path>
       </Exclusions>
       <Exclusions>
         <Path>version.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>export</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>cdf/C Series Module Detection</Path>
@@ -351,7 +294,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>706EB3A7BF75DE013BDF1A8F7316BBC8</GUID>
+      <GUID>E3BFE132B11DAC49196AAE880D083606</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -456,7 +399,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>36F0315153333D5962ECE1DC1D01E655</GUID>
+      <GUID>A384FED636739C808C0D9ED13A1118D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -505,7 +448,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>608CE75F29EDCD6DAEBCE0CDC5232416</GUID>
+      <GUID>B972DEABEB9CFE8D9840DB59930AD0DB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
