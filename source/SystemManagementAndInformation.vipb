@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-09-15 15:17:04" Creator="bmitchel" Comments="" ID="51d57767bdcec2327cbae5282cfa202a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2016-10-06 12:41:03" Creator="bmitchel" Comments="" ID="a25eff6813a095d7122a5d67cc44c176">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
     <Library_Version>2013.0.0.2</Library_Version>
@@ -174,6 +174,33 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       <Exclusions>
         <Path>export</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>source/C Series module detection/cRIO FPGA EEPROM Access_Mod1.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/C Series module detection/cRIO FPGA EEPROM Access_Mod2.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/C Series module detection/cRIO FPGA EEPROM Access_Mod3.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/C Series module detection/cRIO FPGA EEPROM Access_Mod4.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/C Series module detection/cRIO FPGA EEPROM Access_Mod5.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/C Series module detection/cRIO FPGA EEPROM Access_Mod6.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/C Series module detection/cRIO FPGA EEPROM Access_Mod7.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/C Series module detection/cRIO FPGA EEPROM Access_Mod8.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>source/C Series module detection/cRIO FPGA Read EEPROM_8 Slots.vi</Path>
+      </Exclusions>
       <Compile_Exclusions>
         <Path>cdf/C Series Module Detection</Path>
       </Compile_Exclusions>
@@ -297,7 +324,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>053975E97B430AFE9E0354AB52AE76A8</GUID>
+      <GUID>A2AB67A41C621CE4DDA8AB6D0887F269</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -402,7 +429,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>DD6847C2CE124D385427B6605E4ED34A</GUID>
+      <GUID>59C37A3D2F2E498C17792B83090E9978</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -451,7 +478,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>2B54B20A02CE9335F2C3AD3019D1C9FA</GUID>
+      <GUID>C8A67426D2FF615CC7B4F3C27AF74F8E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
