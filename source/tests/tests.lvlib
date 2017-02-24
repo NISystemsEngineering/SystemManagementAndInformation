@@ -35,10 +35,6 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="user defined test VIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="controls" Type="Folder">
-			<Item Name="FG action.ctl" Type="VI" URL="../User Defined Test VIs/FG action.ctl"/>
-			<Item Name="login credentials.ctl" Type="VI" URL="../User Defined Test VIs/login credentials.ctl"/>
-		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="login credentials FG.vi" Type="VI" URL="../User Defined Test VIs/login credentials FG.vi"/>
 		</Item>
@@ -46,22 +42,21 @@
 		<Item Name="detect controller.vi" Type="VI" URL="../User Defined Test VIs/detect controller.vi"/>
 		<Item Name="detect chassis.vi" Type="VI" URL="../User Defined Test VIs/detect chassis.vi"/>
 		<Item Name="detect modules.vi" Type="VI" URL="../User Defined Test VIs/detect modules.vi"/>
-		<Item Name="login credentials.ini" Type="Document" URL="../user defined test VIs/login credentials.ini"/>
 	</Item>
 	<Item Name="1 detect network devices.lvtest" Type="TestItem" URL="../1 detect network devices.lvtest">
 		<Property Name="utf.test.bind" Type="Str">tests.lvlib:detect network devices.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">9C07C6A5-F541-F195-29A6-9D992E371323</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">411BEB30-B908-7056-2572-E0C46F741EAF</Property>
 	</Item>
 	<Item Name="2 detect controller.lvtest" Type="TestItem" URL="../2 detect controller.lvtest">
 		<Property Name="utf.test.bind" Type="Str">tests.lvlib:detect controller.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">0CB79E39-5706-5403-A514-5363F7BDA65D</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">AC71E962-4D9C-2584-4FC4-ECFC37456477</Property>
 	</Item>
 	<Item Name="3 detect chassis.lvtest" Type="TestItem" URL="../3 detect chassis.lvtest">
 		<Property Name="utf.test.bind" Type="Str">tests.lvlib:detect chassis.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">1675AEAA-0AAC-2FB2-942A-8BCE712314B4</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">65A22ABD-597F-0B4F-5E5C-40344DA7458A</Property>
 	</Item>
 	<Item Name="4 detect modules.lvtest" Type="TestItem" URL="../4 detect modules.lvtest">
 		<Property Name="utf.test.bind" Type="Str">tests.lvlib:detect modules.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">A1519ABC-F257-F1A1-A37E-6A99E0DCAF5F</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">2910E741-EC2E-4580-1EA8-8DEC516EE5C3</Property>
 	</Item>
 </Library>
