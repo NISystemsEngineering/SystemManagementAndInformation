@@ -30,13 +30,16 @@
 	<Item Name="FPGABitfiles" Type="Folder">
 		<Item Name="9030_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9030_ReadEEPROM.lvbitx"/>
 		<Item Name="9031_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9031_ReadEEPROM.lvbitx"/>
+		<Item Name="9032_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2015/FPGABitfiles/9032_ReadEEPROM.lvbitx"/>
 		<Item Name="9033_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9033_ReadEEPROM.lvbitx"/>
 		<Item Name="9034_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9034_ReadEEPROM.lvbitx"/>
 		<Item Name="9035_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9035_ReadEEPROM.lvbitx"/>
+		<Item Name="9035Sync_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2016/FPGABitfiles/9035Sync_ReadEEPROM.lvbitx"/>
 		<Item Name="9036_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9036_ReadEEPROM.lvbitx"/>
 		<Item Name="9037_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9037_ReadEEPROM.lvbitx"/>
 		<Item Name="9038_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9038_ReadEEPROM.lvbitx"/>
 		<Item Name="9039_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9039_ReadEEPROM.lvbitx"/>
+		<Item Name="9039Sync_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2016/FPGABitfiles/9039Sync_ReadEEPROM.lvbitx"/>
 		<Item Name="9063_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9063_ReadEEPROM.lvbitx"/>
 		<Item Name="9064_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9064_ReadEEPROM.lvbitx"/>
 		<Item Name="9065_ReadEEPROM.lvbitx" Type="Document" URL="../../../C Series module detection/lv2014/FPGABitfiles/9065_ReadEEPROM.lvbitx"/>
