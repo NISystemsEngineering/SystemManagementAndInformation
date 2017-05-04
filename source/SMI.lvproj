@@ -57,6 +57,7 @@
 	<Property Name="utf.run.statusfile.path" Type="Path">test status log.txt</Property>
 	<Property Name="utf.run.timestamp.flag" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="CCSymbols" Type="Str"></Property>
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -120,6 +121,52 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="detect modules" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{8B4EE57F-98B0-4700-A062-A65993F0C10D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F0C9C0C1-594A-423A-9D68-6FEEC818712D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{AE2408F6-5780-472C-909C-383833FD67B0}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">detect modules</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/detect modules</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9196E817-F4CF-4B24-A972-D61E2772F07F}</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/detect modules/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/detect modules/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9DD7BA07-E959-47FF-A44E-E28004FF5E5C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SMI/tests.lvlib/user defined test VIs/detect modules.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SMI/SMI.lvlib/Module/C Series Module.lvclass/FPGABitfiles</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">detect modules</Property>
+				<Property Name="TgtF_internalName" Type="Str">detect modules</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">detect modules</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4022A8C6-1B63-4AE1-BFE4-D3DE06256B6A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
