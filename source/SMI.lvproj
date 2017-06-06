@@ -85,8 +85,8 @@
 				<Item Name="move directory to protected Windows location.vi" Type="VI" URL="../installer helper VIs/move directory to protected Windows location.vi"/>
 			</Item>
 			<Item Name="examples" Type="Folder">
-				<Item Name="get system information - example.vi" Type="VI" URL="../get system information - example.vi"/>
 				<Item Name="get advanced system information - example.vi" Type="VI" URL="../get advanced system information - example.vi"/>
+				<Item Name="get system information - example.vi" Type="VI" URL="../get system information - example.vi"/>
 			</Item>
 			<Item Name="SMI.lvlib" Type="Library" URL="../SMI.lvlib"/>
 			<Item Name="System Management and Information (SMI) README.txt" Type="Document" URL="../../documentation/System Management and Information (SMI) README.txt"/>
