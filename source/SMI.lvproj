@@ -81,11 +81,16 @@
 				<Item Name="controls" Type="Folder">
 					<Item Name="directory type.ctl" Type="VI" URL="../installer helper VIs/directory type.ctl"/>
 				</Item>
-				<Item Name="delete directory from protected Windows location.vi" Type="VI" URL="../installer helper VIs/delete directory from protected Windows location.vi"/>
-				<Item Name="move directory to protected Windows location.vi" Type="VI" URL="../installer helper VIs/move directory to protected Windows location.vi"/>
+				<Item Name="subVIS" Type="Folder">
+					<Item Name="get bitfiles from files array.vi" Type="VI" URL="../installer helper VIs/get bitfiles from files array.vi"/>
+					<Item Name="move files to target folder.vi" Type="VI" URL="../installer helper VIs/move files to target folder.vi"/>
+					<Item Name="create or replace existing folder.vi" Type="VI" URL="../installer helper VIs/create or replace existing folder.vi"/>
+					<Item Name="move folder contents up one hierarchy level.vi" Type="VI" URL="../installer helper VIs/move folder contents up one hierarchy level.vi"/>
+					<Item Name="delete directory from protected Windows location.vi" Type="VI" URL="../installer helper VIs/delete directory from protected Windows location.vi"/>
+					<Item Name="move directory to protected Windows location.vi" Type="VI" URL="../installer helper VIs/move directory to protected Windows location.vi"/>
+				</Item>
 				<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../installer helper VIs/Post-Install Custom Action.vi"/>
 				<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../installer helper VIs/Post-Uninstall Custom Action.vi"/>
-				<Item Name="get highest supported labview version.vi" Type="VI" URL="../installer helper VIs/get highest supported labview version.vi"/>
 			</Item>
 			<Item Name="examples" Type="Folder">
 				<Item Name="get advanced system information - example.vi" Type="VI" URL="../get advanced system information - example.vi"/>
