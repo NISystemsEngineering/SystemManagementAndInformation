@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-07-20 13:39:05" Creator="bmitchel" Comments="" ID="c9a8dbd3224b75b337f802d666e301e7">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-07-20 14:17:51" Creator="bmitchel" Comments="" ID="00c6e288ad3189f5b544397d0fbe6092">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
     <Library_Version>2014.0.0.17</Library_Version>
@@ -184,9 +184,6 @@ Invalid property node parameter on some RIO targets.</Release_Notes>
       <Exclusions>
         <Path>export</Path>
       </Exclusions>
-      <Exclusions>
-        <Path>source/C Series module detection</Path>
-      </Exclusions>
       <Compile_Exclusions>
         <Path>cdf/C Series Module Detection</Path>
       </Compile_Exclusions>
@@ -310,7 +307,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>0A4A126701E7F4073FD9A6A4C0757A58</GUID>
+      <GUID>66CBCEEB4BD679FFBFB83F532AA0F937</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -415,7 +412,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>AB6C41C29DB5D162BBB1768FCF2D5699</GUID>
+      <GUID>824890660074F1679769C3FE20AA3656</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -464,7 +461,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>226D275EEF660F2683A5A011F357D750</GUID>
+      <GUID>0F0EE65C5FB7C7BEAB6C45167B710F45</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
