@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-07-21 11:29:49" Creator="bmitchel" Comments="" ID="4610bbe3d3c753f59c61914b34b28cf6">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-07-21 13:59:51" Creator="bmitchel" Comments="" ID="6c0eeee632ef47aed4224ec45494b735">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
-    <Library_Version>2014.0.0.15</Library_Version>
+    <Library_Version>2014.0.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\export</Library_Output_Folder>
@@ -176,6 +176,9 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       <Exclusions>
         <Path>source/C Series module detection/lv2016</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>export</Path>
+      </Exclusions>
       <Compile_Exclusions>
         <Path>cdf/C Series Module Detection</Path>
       </Compile_Exclusions>
@@ -299,7 +302,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>54699932F52100DE9D3C28BC2953E197</GUID>
+      <GUID>610B341D787925F2682ECAB89C6738BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -404,7 +407,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>E9AE752E4308C9863846B2028D1D6702</GUID>
+      <GUID>A80A45182B585C4DD97FD24712B32AC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -453,7 +456,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>53F12F96375589B36C5593A92045C792</GUID>
+      <GUID>EE9410E520171FD16F96807BC43903DD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
