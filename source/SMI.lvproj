@@ -76,6 +76,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="examples" Type="Folder">
+			<Item Name="get advanced system information - example.vi" Type="VI" URL="../get advanced system information - example.vi"/>
+			<Item Name="get system information - example.vi" Type="VI" URL="../get system information - example.vi"/>
+		</Item>
 		<Item Name="SMI" Type="Folder">
 			<Item Name="installer helper VIs" Type="Folder">
 				<Item Name="controls" Type="Folder">
@@ -91,10 +95,6 @@
 				</Item>
 				<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../installer helper VIs/Post-Install Custom Action.vi"/>
 				<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../installer helper VIs/Post-Uninstall Custom Action.vi"/>
-			</Item>
-			<Item Name="examples" Type="Folder">
-				<Item Name="get advanced system information - example.vi" Type="VI" URL="../get advanced system information - example.vi"/>
-				<Item Name="get system information - example.vi" Type="VI" URL="../get system information - example.vi"/>
 			</Item>
 			<Item Name="SMI.lvlib" Type="Library" URL="../SMI.lvlib"/>
 			<Item Name="System Management and Information (SMI) README.txt" Type="Document" URL="../../documentation/System Management and Information (SMI) README.txt"/>
@@ -138,9 +138,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
