@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-07-27 13:05:16" Creator="bmitchel" Comments="" ID="0d8b98a50cb28643d9aa1b7b3fb431db">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-07-27 15:56:18" Creator="bmitchel" Comments="" ID="94dbf7c9188ac69b393e11e03b35219e">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
-    <Library_Version>2014.0.0.20</Library_Version>
+    <Library_Version>2014.0.0.22</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\export</Library_Output_Folder>
@@ -20,10 +20,10 @@
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
-      <Pre-Install_VI/>
+      <Pre-Install_VI>installer helper VIs\Pre-Install Custom Action.vi</Pre-Install_VI>
       <Post-Install_VI>installer helper VIs\Post-Install Custom Action.vi</Post-Install_VI>
-      <Pre-Uninstall_VI/>
-      <Post-Uninstall_VI>installer helper VIs\Post-Uninstall Custom Action.vi</Post-Uninstall_VI>
+      <Pre-Uninstall_VI>installer helper VIs\Pre-Uninstall Custom Action.vi</Pre-Uninstall_VI>
+      <Post-Uninstall_VI/>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>SystemManagementAndInformation.vipc</VI_Package_Configuration_File>
     <Description>
@@ -302,7 +302,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>5F55C699CC520AB9BB152304EC2D0DEE</GUID>
+      <GUID>A1559BDEEF218F7376C6FC3DE4F31398</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -407,7 +407,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>BDBE8910C951BB533648D360E5D9BE12</GUID>
+      <GUID>E0D086F3D1C6EC1AF422247962514589</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -456,7 +456,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>E8CE6D25F7296082F16444EE730D3609</GUID>
+      <GUID>A5D1EBB26A8C93A0D927D785502BC937</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
