@@ -94,6 +94,8 @@
 					<Item Name="move directory to protected Windows location.vi" Type="VI" URL="../installer helper VIs/move directory to protected Windows location.vi"/>
 				</Item>
 				<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../installer helper VIs/Post-Install Custom Action.vi"/>
+				<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../installer helper VIs/Pre-Install Custom Action.vi"/>
+				<Item Name="Pre-Uninstall Custom Action.vi" Type="VI" URL="../installer helper VIs/Pre-Uninstall Custom Action.vi"/>
 				<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../installer helper VIs/Post-Uninstall Custom Action.vi"/>
 			</Item>
 			<Item Name="SMI.lvlib" Type="Library" URL="../SMI.lvlib"/>
