@@ -85,7 +85,7 @@
 				<Item Name="controls" Type="Folder">
 					<Item Name="directory type.ctl" Type="VI" URL="../installer helper VIs/directory type.ctl"/>
 				</Item>
-				<Item Name="subVIS" Type="Folder">
+				<Item Name="subVIs" Type="Folder">
 					<Item Name="get bitfiles from files array.vi" Type="VI" URL="../installer helper VIs/get bitfiles from files array.vi"/>
 					<Item Name="move files to target folder.vi" Type="VI" URL="../installer helper VIs/move files to target folder.vi"/>
 					<Item Name="create or replace existing folder.vi" Type="VI" URL="../installer helper VIs/create or replace existing folder.vi"/>
@@ -94,9 +94,7 @@
 					<Item Name="move directory to protected Windows location.vi" Type="VI" URL="../installer helper VIs/move directory to protected Windows location.vi"/>
 				</Item>
 				<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../installer helper VIs/Post-Install Custom Action.vi"/>
-				<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../installer helper VIs/Pre-Install Custom Action.vi"/>
 				<Item Name="Pre-Uninstall Custom Action.vi" Type="VI" URL="../installer helper VIs/Pre-Uninstall Custom Action.vi"/>
-				<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../installer helper VIs/Post-Uninstall Custom Action.vi"/>
 			</Item>
 			<Item Name="SMI.lvlib" Type="Library" URL="../SMI.lvlib"/>
 			<Item Name="System Management and Information (SMI) README.txt" Type="Document" URL="../../documentation/System Management and Information (SMI) README.txt"/>
@@ -121,13 +119,6 @@
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
-				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
-				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
-				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
-				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
