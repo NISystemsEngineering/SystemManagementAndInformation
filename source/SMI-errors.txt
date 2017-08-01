@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+This file contains custom LabVIEW error codes for the System Management and Information (SMI) library. The reserved error code range for SMI (538950-538999) should not be exceeded without the consent of NI Systems Engineering.
+
+
+
+
+
+
+<nifamily familyname="SMI" displayname="SMI">
+</nifamily>
+</nicomment>
+<nierror code="538950">
+The specified target is unsupported. SMI is only intended for real-time targets.
+</nierror>
+<nierror code="538951">
+Warning: One or more System Hardware properties are not available for this target.
+</nierror>
+<nierror code="538952">
+Warning: One or more System Hardware properties are not available for the target.
+</nierror>
+<nierror code="538953">
+Warning: One or more System Hardware properties are not available for one or more of the target network adapters.
+</nierror>
+<nierror code="538954">
+Warning: One or more System Hardware properties are not available for the target chassis.
+</nierror>
+<nierror code="538955">
+Warning: One or more System Hardware properties are not available for the Ethernet RIO remote chassis.
+</nierror>
+<nierror code="538956">
+Warning: FPGA bitfile needed for C Series module detection was not found in the expected file location.
+</nierror>
+<nierror code="538957">
+Warning: Scan Mode not supported for C Series module detection.
+</nierror>
+<nierror code="538958">
+Warning: C Series module detection failed for the chassis slot.
+</nierror>
+<nierror code="538959">
+Warning: One or more C Series module properties could not be read from the EEPROM for the module in the chassis slot.
+</nierror>
+</nidocument>
