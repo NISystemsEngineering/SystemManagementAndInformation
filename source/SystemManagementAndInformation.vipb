@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-08-01 16:47:36" Creator="bmitchel" Comments="" ID="b1ccbe6c16b23661438519b09c471a82">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-08-02 12:02:54" Creator="bmitchel" Comments="" ID="e1aaf5e516f4dd4ef9ee3fd39f695b97">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
-    <Library_Version>2014.0.0.29</Library_Version>
+    <Library_Version>2014.0.0.30</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\export</Library_Output_Folder>
@@ -308,7 +308,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>37878F0E91965D5BC085642FBD464FF8</GUID>
+      <GUID>05E88479240E0DD15582AE977CDD322A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -413,7 +413,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>7687E05AEFD8AA1C463DD34230943827</GUID>
+      <GUID>7A6100103BEDEDDEAA6D7545BBB44A9D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -462,7 +462,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>22B7E8A5CC830A955FAFB597EE48FEB7</GUID>
+      <GUID>24405535182D6C5D29CCB2EF0C26E442</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
