@@ -23,4 +23,7 @@
 		<Item Name="C Series Module.lvclass" Type="LVClass" URL="../classes/C Series Module/C Series Module.lvclass"/>
 		<Item Name="PXI Module.lvclass" Type="LVClass" URL="../classes/PXI Module/PXI Module.lvclass"/>
 	</Item>
+	<Item Name="Error Handling" Type="Folder">
+		<Item Name="error cluster from custom error code.vi" Type="VI" URL="../error handling/error cluster from custom error code.vi"/>
+	</Item>
 </Library>
