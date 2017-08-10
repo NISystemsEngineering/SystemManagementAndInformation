@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-08-09 15:39:00" Creator="bmitchel" Comments="" ID="4c5502aa8346d77c6bfa72ac05ebc228">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-08-10 14:44:16" Creator="bmitchel" Comments="" ID="15c8dade43d828c8c5ca16d3e8bf00aa">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
-    <Library_Version>2014.0.0.31</Library_Version>
+    <Library_Version>2014.0.0.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\export</Library_Output_Folder>
@@ -66,7 +66,12 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
 - Adds C Series Module Detection LV projects for generating target specific FPGA bitfiles to be used for module detection in FPGA interface mode.
 
 Fixes:
-- Remote chassis information</Release_Notes>
+- Remote chassis information
+
+Known Limitations:
+- C Series modules cannot be detected for chassis in Scan Mode.
+- C Series modules installed in Ethernet expansion I/O chassis can only be detected using the primary network adapter.
+- VxWorks (e.g. cRIO-907x) and PharLap (e.g. cRIO-908x) RT targets cannot detect Ethernet RIO expansion chassis.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -311,7 +316,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>CAF2E9E51B70CEC35B3C6A0E1B461B4F</GUID>
+      <GUID>540A27155744756D8EB79EBECB4DBB7E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -416,7 +421,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>174BCEE839F92228BEF7F32503EE7703</GUID>
+      <GUID>3D09B896606A08A18A4F14C58612C427</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -465,7 +470,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>E7546F1EB82553FE45C627F3B1A1D401</GUID>
+      <GUID>F2FB8024A69F43114F20178A34C36913</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
