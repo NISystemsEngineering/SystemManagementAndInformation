@@ -9,6 +9,7 @@ This file contains custom LabVIEW error codes for the System Management and Info
 
 
 
+
 <nifamily familyname="SMI" displayname="SMI">
 </nifamily>
 </nicomment>
@@ -44,5 +45,8 @@ One or more C Series module properties could not be read from the EEPROM for the
 </nierror>
 <nierror code="538960">
 C Series module detection is not supported for remote chassis connected to a secondary network adapter.
+</nierror>
+<nierror code="538961">
+One or more System Hardware properties are not available for the network target.
 </nierror>
 </nidocument>
