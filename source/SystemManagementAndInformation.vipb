@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-08-10 16:11:55" Creator="bmitchel" Comments="" ID="4b38acd67fefab726e32dcc42e2c6009">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-31 13:08:26" Modified_Date="2017-08-11 14:12:28" Creator="bmitchel" Comments="" ID="a97dd5487d4f36ee5a5308bba05ffe66">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_smi</Package_File_Name>
-    <Library_Version>2014.0.0.34</Library_Version>
+    <Library_Version>2014.0.0.35</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\export</Library_Output_Folder>
@@ -62,11 +62,13 @@ sbRIO-9601, sbRIO-9602, sbRIO-9607, sbRIO-9611, sbRIO-9612, sbRIO-9627, sbRIO-96
       <Packager>NI Systems Engineering</Packager>
       <URL>https://decibel.ni.com/content/docs/DOC-48647</URL>
       <Release_Notes>New features: 
-- Adds support for NI cRIO-9032, 9035 (Sync), and 9039 (Sync) targets.
-- Adds C Series Module Detection LV projects for generating target specific FPGA bitfiles to be used for module detection in FPGA interface mode.
+- Support for NI cRIO-9032, 9035 (Sync), and 9039 (Sync) targets.
+- C Series Module Detection LV project for generating target specific FPGA bitfiles to be used for module detection in FPGA interface mode.
+- Custom error codes.
 
 Fixes:
 - Remote chassis information
+- Support for all Ethernet RIO chassis models
 
 Known Limitations:
 - C Series modules cannot be detected for chassis in Scan Mode.
@@ -316,7 +318,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\Device\detect network devices.vi</Path>
         <VI_Title>detect network devices</VI_Title>
       </Items_Data>
-      <GUID>DED1D61F9B7CE7FE0C27A46F9E28DF8C</GUID>
+      <GUID>AD2DFA5CDB242D4B50102B50365E6AEF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -421,7 +423,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>classes\SysCfg Device\initialize sys config device.vi</Path>
         <VI_Title>initialize device</VI_Title>
       </Items_Data>
-      <GUID>23ECB467C8BB9DC56AD0E1D3E54ED423</GUID>
+      <GUID>31BED5B37E663B55AD8A55BFF05C2FE3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -470,7 +472,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>get advanced system information - example.vi</Path>
         <VI_Title>advanced system information</VI_Title>
       </Items_Data>
-      <GUID>4C3A08AE94CAC845EE8479E02308B228</GUID>
+      <GUID>B4F8ADFFD7CD6997CE5773984204A46D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
